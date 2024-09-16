@@ -1,0 +1,25 @@
+
+Consume API - 2 approaches
+1. Consume from client side
+2. Consume from server side
+
+--------------------------------------------------------------------
+
+Codeium = Codeium is a free extension that lets you code with AI in 40+ IDEs and 70+ languages. It offers autocomplete, chat, command, and context awareness features that help you build …
+
+
+-------------------------------------------
+
+web services
+-DI
+-CORS
+-oAuth
+
+
+-----------------------------------------
+
+to add cors
+1. add nuget package - Microsoft.AspNet.WebApi.Cors
+2.Add service in program.cs
+3.app.useCors() in program.cs to activate
+4.add[enableCORS("name") in conttroller

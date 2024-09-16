@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Accounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AccountNumber>101</AccountNumber>
+  <AccountName>Premal</AccountName>
+  <Accountbalance>10000</Accountbalance>
+  <AccountIsActive>true</AccountIsActive>
+  <AccountType>Saving</AccountType>
+</Accounts>

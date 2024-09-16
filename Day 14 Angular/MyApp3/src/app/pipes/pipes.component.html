@@ -1,0 +1,31 @@
+<div>
+    <h2>Pipes Example</h2>
+    <h4>Welcome {{name | uppercase}}</h4>
+    <h4>Welcone {{name | lowercase}}</h4>
+
+    <hr>
+
+    <h4>Pi : {{pi | number : '1.5-5'}}</h4>
+    <h4>Pi : {{pi | number : '.10-10'}}</h4>
+
+    <hr>
+
+    <h4>{{salary | currency : 'INR' : true : '.3-3'}}</h4>
+
+    <hr>
+    <h4>Date : {{today | date : 'short'}}</h4>
+    <h4>Date : {{today | date : 'medium'}}</h4>
+    <h4>Date : {{today | date : 'long'}}</h4>
+    <h4>Date : {{today | date : 'dd-mm-yyyy'}}</h4>
+    <h4>Date : {{today | date : 'dd/mm/yyyy'}}</h4>
+
+    <hr>
+
+    <h4>{{obj | json}}</h4>
+    
+    <hr>
+
+    <!-- Custom pipe -->
+    <h4>{{message | changeString : ("_")}}</h4>
+
+</div>

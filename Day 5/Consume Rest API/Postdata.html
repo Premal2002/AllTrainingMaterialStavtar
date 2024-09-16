@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consume Post API Data</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<script>
+    function getPost() {
+        var url = "https://jsonplaceholder.typicode.com/posts";
+        //here we use then catch finally instead try catch finally
+        //in these we use atleast 2 then 1 for dataformat and other to display data
+        fetch(url)
+            .then(dataFormat => dataFormat.json())
+            .then(data => {
+                alert("Success");
+                console.log(data);
+                //code to display data
+                var tblPost = document.getElementById('tblPost');
+                tblPost.innerHTML += "<tr><th>Title</th><th>Body</th></tr>";
+                for(var i = 0;i<data.length;i++){
+                    tblPost.innerHTML += "<tr><td>"+data[i].title+"</td><td>"+data[i].body+"</td></tr>";
+                }
+            })
+            .catch(errDetails => {
+                alert("Error");
+                //this is how you display your error
+            })
+    }
+</script>
+
+<body>
+    <button onclick="getPost()">Get Post</button>
+    <table id="tblPost" border:"1"></table>
+</body>
+
+</html>

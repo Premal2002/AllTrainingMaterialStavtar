@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consume Products 2 API</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<script>
+    function getProductDetails(){
+        var pId = document.getElementById("pId").value;
+       
+        console.log(pId);
+        var url = `https://fakestoreapi.com/products/${pId}`;
+        fetch(url)
+        .then(dataFormat => dataFormat.json())
+        .then(data => {
+            var pDetails = document.getElementById("pDetails");
+            alert("success");
+            Console.log(data);
+            // pDetails.innerHTML = "<h1>Title : "+data.title + 
+        })
+        .catch(error => {
+            alert("Error!!!");
+        })
+    }
+</script>
+<body>
+    <h1>Get Product Details using Product ID</h1>
+    <span>Enter Product Id </span><input type="text" id="pId">
+    <button onclick="getProductDetails()">Get Details</button>
+    <div id="pDetails"></div>
+</body>
+
+</html>

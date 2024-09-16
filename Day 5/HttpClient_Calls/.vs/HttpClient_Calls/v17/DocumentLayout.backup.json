@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\employeedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\employeedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\models\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\models\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\models\\postdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\models\\postdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\post.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\productbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\productbycategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\Employee.cs",
+              "RelativeToolTip": "HttpClient_Calls\\Models\\Employee.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T07:31:26.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeData.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T07:21:15.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "HttpClient_Calls\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAApwDIAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T08:05:36.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostData.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\PostData.cs",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\PostData.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\PostData.cs",
+              "RelativeToolTip": "HttpClient_Calls\\Models\\PostData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBkAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T07:45:20.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "HttpClient_Calls\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T06:51:10.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T08:02:03.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Post.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Post.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\Post.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Post.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\Post.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T08:07:37.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductData.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\ProductData.cs",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\ProductData.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\ProductData.cs",
+              "RelativeToolTip": "HttpClient_Calls\\Models\\ProductData.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwBgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T09:30:44.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T09:20:39.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T07:47:40.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T06:50:45.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T07:14:18.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductByCategory.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T09:39:20.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "HttpClient_Calls\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-29T06:50:41.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

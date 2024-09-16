@@ -1,0 +1,24 @@
+<div class="container">
+    <table class="table" *ngIf = "users.length > 0">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Country</th>
+            <th scope="col">Delete</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let u of users">
+            <th scope="row">{{u.name}}</th>
+            <td>{{u.email}}</td>
+            <td>{{u.country}}</td>
+            <td><button class="btn btn-success" routerLink="/details/{{u.id}}">View</button></td>
+            <td><button class="btn btn-danger" (click)="removeUser(u.id)">X</button></td>
+          </tr>
+        </tbody>
+      </table>
+    
+</div>
+

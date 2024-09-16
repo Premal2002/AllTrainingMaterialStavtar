@@ -1,0 +1,28 @@
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.exe
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.deps.json
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.runtimeconfig.json
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.dll
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.pdb
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.AssemblyInfo.cs
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.dll
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\refint\FileSTRUCTURE.dll
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.pdb
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.genruntimeconfig.cache
+C:\Users\PremalKadam\source\repos\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\ref\FileSTRUCTURE.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\bin\Debug\net8.0\FileSTRUCTURE.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\refint\FileSTRUCTURE.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\FileSTRUCTURE.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\FileSTRUCTURE\FileSTRUCTURE\obj\Debug\net8.0\ref\FileSTRUCTURE.dll

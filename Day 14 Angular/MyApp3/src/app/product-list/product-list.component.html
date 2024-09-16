@@ -1,0 +1,21 @@
+<div class="container">
+    <table class="table" *ngIf = "products.length > 0">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Description</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of products">
+            <th scope="row">{{p.name}}</th>
+            <td>{{p.price}}</td>
+            <td>{{p.description}}</td>
+            <td><button class="btn btn-success" (click)="details(p.id)">View</button></td>
+          </tr>
+        </tbody>
+      </table>
+    
+</div>

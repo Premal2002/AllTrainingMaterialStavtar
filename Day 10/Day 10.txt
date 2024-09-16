@@ -1,0 +1,53 @@
+use EmployeeDB;
+
+select * from 
+dbo.employee e 
+left join dbo.department d
+on e.EmpID = d.EmpId;
+where e.DeptId is null;
+
+
+-------------------------------------------------------------
+
+sharding  --  deploy data on multiple server
+partitioning -- make partition of data either horizontally or vertically 
+indexing -- 
+
+-------------------------------------------------------------
+
+paging = in ef core skip and take 
+	- in sql offset and fetch
+
+-----------------------------------------------------------
+
+Dynamic query in sql - Dynamic SQL in a stored procedure allows you to construct and execute SQL queries dynamically at runtime. This can be useful when you need to build queries based on user input or other variable conditions. However, using dynamic SQL can introduce risks such as SQL injection if not handled properly.
+Dynamic query in Stored procedure   
+
+------------------------------------------------------------
+
+stored procedure with try- catch and raise error example 
+
+-------------------------------------------------------------
+
+throw vs throw new ex in c#
+
+
+-------------------------------------------------------------
+
+output parameter in stored procedure
+
+----------------------------------------------
+
+views in sql -  
+	--Schemabinding : prevent schema changes and data integrity and consistency
+	--updateable views No Aggregations, No Joins, No DISTINCT, No Subqueries, Must Include All Required Columns
+
+
+------------------------------------------------------------
+rownumber()
+rank()
+denserank()
+
+----------------------------------------------
+
+pl SQl vs SQL(t SQL)

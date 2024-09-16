@@ -1,0 +1,3 @@
+vendorId, VendorName, VendorCode, VendorPhoneNumber, VendorEmail, IsVendorActive
+1,Prem,prem123,9854575485,prem@gmail.com,True
+2,Sandip,sandip123,8457584568,sandip@gmail.com,True

@@ -1,0 +1,27 @@
+<h1>This is tutorial on data binding, class binding, style binding</h1>
+
+<h4>Interpolation</h4>
+<h2>Welcome {{name}}</h2>
+<hr>
+
+<h4>Property Binding</h4>
+<img [src]="imgURL" [alt]="name" [height]="height">
+<hr>
+
+<h4>Two way binding</h4>
+<p>{{message}}</p>
+<input type="text" [(ngModel)]="message">
+<hr>
+
+<h4>class binding</h4>
+<button [class.active]="isActive" (click)="onClick()">Try Me</button>
+
+<hr>
+
+<h4>multiple class binding</h4>
+<button [ngClass]="{'btnColor' : isActive, 'btnBgColor' : bgColor}" (click)="removeClasses()">Try Me</button>
+<hr>
+
+<h4>Style binding</h4>
+<p [ngStyle] = "{'background-color' : isActive? 'plum' : 'yellow','color' : isActive? 'red' : 'black', 'font-weight' : 'bold'}">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi alias ipsam modi ipsum in molestiae nobis sequi fugit
+    praesentium laborum.</p>

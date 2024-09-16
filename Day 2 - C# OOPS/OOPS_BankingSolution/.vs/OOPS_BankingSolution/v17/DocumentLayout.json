@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 2 - c# oops\\oops_bankingsolution\\oops_bankingsolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|solutionrelative:oops_bankingsolution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 2 - c# oops\\oops_bankingsolution\\oops_bankingsolution\\savings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|solutionrelative:oops_bankingsolution\\savings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 2 - c# oops\\oops_bankingsolution\\oops_bankingsolution\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|solutionrelative:oops_bankingsolution\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 2 - c# oops\\oops_bankingsolution\\oops_bankingsolution\\current.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|solutionrelative:oops_bankingsolution\\current.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 2 - c# oops\\oops_bankingsolution\\oops_bankingsolution\\pf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87C878F4-542E-4964-8AC5-9A5F48C78D4A}|OOPS_BankingSolution\\OOPS_BankingSolution.csproj|solutionrelative:oops_bankingsolution\\pf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PF.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\PF.cs",
+              "RelativeDocumentMoniker": "OOPS_BankingSolution\\PF.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\PF.cs",
+              "RelativeToolTip": "OOPS_BankingSolution\\PF.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:31:45.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Current.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Current.cs",
+              "RelativeDocumentMoniker": "OOPS_BankingSolution\\Current.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Current.cs",
+              "RelativeToolTip": "OOPS_BankingSolution\\Current.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:31:36.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Savings.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Savings.cs",
+              "RelativeDocumentMoniker": "OOPS_BankingSolution\\Savings.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Savings.cs",
+              "RelativeToolTip": "OOPS_BankingSolution\\Savings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:31:25.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Accounts.cs",
+              "RelativeDocumentMoniker": "OOPS_BankingSolution\\Accounts.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Accounts.cs",
+              "RelativeToolTip": "OOPS_BankingSolution\\Accounts.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wBwAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:21:25.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Program.cs",
+              "RelativeDocumentMoniker": "OOPS_BankingSolution\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 2 - C# OOPS\\OOPS_BankingSolution\\OOPS_BankingSolution\\Program.cs",
+              "RelativeToolTip": "OOPS_BankingSolution\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T07:21:07.66Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

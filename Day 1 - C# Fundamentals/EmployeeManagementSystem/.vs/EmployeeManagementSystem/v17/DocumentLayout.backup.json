@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44C1FE52-B880-4766-AD8B-EF9E4B85A893}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 1 - c# fundamentals\\employeemanagementsystem\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C1FE52-B880-4766-AD8B-EF9E4B85A893}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C1FE52-B880-4766-AD8B-EF9E4B85A893}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 1 - c# fundamentals\\employeemanagementsystem\\employeemanagementsystem\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C1FE52-B880-4766-AD8B-EF9E4B85A893}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C1FE52-B880-4766-AD8B-EF9E4B85A893}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 1 - c# fundamentals\\employeemanagementsystem\\employeemanagementsystem\\myenumerations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C1FE52-B880-4766-AD8B-EF9E4B85A893}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\myenumerations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Calculations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicles.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Vehicles.cs",
+              "RelativeDocumentMoniker": "..\\CSharp_Fundamentals\\CSharp_Fundamentals\\Vehicles.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Vehicles.cs",
+              "RelativeToolTip": "..\\CSharp_Fundamentals\\CSharp_Fundamentals\\Vehicles.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:49:39.589Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Calculations.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Calculations.cs",
+              "RelativeDocumentMoniker": "..\\CSharp_Fundamentals\\CSharp_Fundamentals\\Calculations.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Calculations.cs",
+              "RelativeToolTip": "..\\CSharp_Fundamentals\\CSharp_Fundamentals\\Calculations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:49:44.336Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Accounts.cs",
+              "RelativeDocumentMoniker": "..\\CSharp_Fundamentals\\CSharp_Fundamentals\\Accounts.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\CSharp_Fundamentals\\CSharp_Fundamentals\\Accounts.cs",
+              "RelativeToolTip": "..\\CSharp_Fundamentals\\CSharp_Fundamentals\\Accounts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:49:46.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyEnumerations.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\EmployeeManagementSystem\\MyEnumerations.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\MyEnumerations.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\EmployeeManagementSystem\\MyEnumerations.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\MyEnumerations.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:48:26.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\EmployeeManagementSystem\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Employee.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\EmployeeManagementSystem\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Employee.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvyYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:48:00.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 1 - C# Fundamentals\\EmployeeManagementSystem\\EmployeeManagementSystem\\Program.cs*",
+              "RelativeToolTip": "EmployeeManagementSystem\\Program.cs*",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T11:47:16.333Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

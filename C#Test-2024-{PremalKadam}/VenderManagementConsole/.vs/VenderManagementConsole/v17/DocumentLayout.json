@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\c#test-2024-{premalkadam}\\vendermanagementconsole\\vendermanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|solutionrelative:vendermanagementconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\c#test-2024-{premalkadam}\\vendermanagementconsole\\vendermanagementconsole\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|solutionrelative:vendermanagementconsole\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\c#test-2024-{premalkadam}\\vendermanagementconsole\\vendermanagementconsole\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|solutionrelative:vendermanagementconsole\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\c#test-2024-{premalkadam}\\vendermanagementconsole\\vendermanagementconsole\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E64AA6ED-5A4E-49C6-A022-3828AB64C625}|VenderManagementConsole\\VenderManagementConsole.csproj|solutionrelative:vendermanagementconsole\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Currency.cs",
+              "RelativeDocumentMoniker": "VenderManagementConsole\\Currency.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Currency.cs",
+              "RelativeToolTip": "VenderManagementConsole\\Currency.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA7wCcAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:36:42.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Invoice.cs",
+              "RelativeDocumentMoniker": "VenderManagementConsole\\Invoice.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Invoice.cs",
+              "RelativeToolTip": "VenderManagementConsole\\Invoice.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:26:30.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vendor.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Vendor.cs",
+              "RelativeDocumentMoniker": "VenderManagementConsole\\Vendor.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Vendor.cs",
+              "RelativeToolTip": "VenderManagementConsole\\Vendor.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:17:57.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Program.cs",
+              "RelativeDocumentMoniker": "VenderManagementConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\C#Test-2024-{PremalKadam}\\VenderManagementConsole\\VenderManagementConsole\\Program.cs",
+              "RelativeToolTip": "VenderManagementConsole\\Program.cs",
+              "ViewState": "AgIAAOUBAAAAAAAAAAAAAMkBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T06:17:27.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+First, FirstOrdefault, Single, SingleOrDefault, Last , LastOrDefault
+
+------------------------------------------------------------------------------------------------------
+Difference between select and selectMany - 

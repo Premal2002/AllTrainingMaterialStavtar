@@ -1,0 +1,54 @@
+warn: 03-09-2024 17:25:53.251 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'TotalAmount' on entity type 'Invoice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+warn: 03-09-2024 17:25:53.260 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+warn: 03-09-2024 17:25:53.266 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: 03-09-2024 17:25:54.078 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (31ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [i].[Id], [i].[InvoiceDate], [i].[OrderId], [i].[TotalAmount], [c].[Id], [t].[OrderId], [t].[ProductId], [t].[Quantity], [t].[UnitPrice], [t].[Id], [t].[Description], [t].[Name], [t].[Price]
+      FROM [Customers] AS [c]
+      INNER JOIN [Orders] AS [o] ON [c].[Id] = [o].[CustomerId]
+      LEFT JOIN [Invoices] AS [i] ON [o].[Id] = [i].[OrderId]
+      LEFT JOIN (
+          SELECT [o0].[OrderId], [o0].[ProductId], [o0].[Quantity], [o0].[UnitPrice], [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+          FROM [OrderProducts] AS [o0]
+          INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[Id]
+      ) AS [t] ON [o].[Id] = [t].[OrderId]
+      ORDER BY [c].[Id], [o].[Id], [i].[Id], [t].[OrderId], [t].[ProductId]
+warn: 03-09-2024 18:46:30.244 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'TotalAmount' on entity type 'Invoice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+warn: 03-09-2024 18:46:30.249 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+warn: 03-09-2024 18:46:30.252 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: 03-09-2024 18:46:31.178 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [i].[Id], [i].[InvoiceDate], [i].[OrderId], [i].[TotalAmount], [c].[Id], [t].[OrderId], [t].[ProductId], [t].[Quantity], [t].[UnitPrice], [t].[Id], [t].[Description], [t].[Name], [t].[Price]
+      FROM [Customers] AS [c]
+      INNER JOIN [Orders] AS [o] ON [c].[Id] = [o].[CustomerId]
+      LEFT JOIN [Invoices] AS [i] ON [o].[Id] = [i].[OrderId]
+      LEFT JOIN (
+          SELECT [o0].[OrderId], [o0].[ProductId], [o0].[Quantity], [o0].[UnitPrice], [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+          FROM [OrderProducts] AS [o0]
+          INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[Id]
+      ) AS [t] ON [o].[Id] = [t].[OrderId]
+      ORDER BY [c].[Id], [o].[Id], [i].[Id], [t].[OrderId], [t].[ProductId]
+warn: 03-09-2024 18:47:30.186 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'TotalAmount' on entity type 'Invoice'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+warn: 03-09-2024 18:47:30.190 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'UnitPrice' on entity type 'OrderProduct'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+warn: 03-09-2024 18:47:30.193 SqlServerEventId.DecimalTypeDefaultWarning[30000] (Microsoft.EntityFrameworkCore.Model.Validation) 
+      No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+info: 03-09-2024 18:47:30.940 RelationalEventId.CommandExecuted[20101] (Microsoft.EntityFrameworkCore.Database.Command) 
+      Executed DbCommand (61ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [o].[Id], [o].[CustomerId], [o].[OrderDate], [i].[Id], [i].[InvoiceDate], [i].[OrderId], [i].[TotalAmount], [c].[Id], [t].[OrderId], [t].[ProductId], [t].[Quantity], [t].[UnitPrice], [t].[Id], [t].[Description], [t].[Name], [t].[Price]
+      FROM [Customers] AS [c]
+      INNER JOIN [Orders] AS [o] ON [c].[Id] = [o].[CustomerId]
+      LEFT JOIN [Invoices] AS [i] ON [o].[Id] = [i].[OrderId]
+      LEFT JOIN (
+          SELECT [o0].[OrderId], [o0].[ProductId], [o0].[Quantity], [o0].[UnitPrice], [p].[Id], [p].[Description], [p].[Name], [p].[Price]
+          FROM [OrderProducts] AS [o0]
+          INNER JOIN [Products] AS [p] ON [o0].[ProductId] = [p].[Id]
+      ) AS [t] ON [o].[Id] = [t].[OrderId]
+      ORDER BY [c].[Id], [o].[Id], [i].[Id], [t].[OrderId], [t].[ProductId]

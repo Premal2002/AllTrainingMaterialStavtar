@@ -1,0 +1,32 @@
+********************** DAY 2 ********************************
+
+OOPS - Object Oriented Programming Structure
+
+Object ?  - Instance of a class, real time entity
+
+Object has Property
+	   Methods
+	   Events
+	   Delegate - representative of an objects 
+	(Delegates and Events are combined to create an automation)
+
+
+Pillars of OOPS
+-Abstraction
+-Encapsulation
+-Inheritance  :  in this c# uses : instead of extends in java
+-Polymorphism : virtual in base and overrides in child class
+
+
+Interfaces - Interface name should starts with I 
+
+https://visualstudio.microsoft.com/vs/community/
+https://github.com/nikhilshah85/Induction2024---Stavtar.git
+
+https://www.microsoft.com/en-us/download/details.aspx?id=104781&lc=1033  - SQL Server
+https://aka.ms/ssmsfullsetup -- sql server management s
+
+
+
+
+

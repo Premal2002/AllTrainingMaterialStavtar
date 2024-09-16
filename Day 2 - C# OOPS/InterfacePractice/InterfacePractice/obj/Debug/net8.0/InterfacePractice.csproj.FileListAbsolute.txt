@@ -1,0 +1,14 @@
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\bin\Debug\net8.0\InterfacePractice.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\bin\Debug\net8.0\InterfacePractice.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\bin\Debug\net8.0\InterfacePractice.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\bin\Debug\net8.0\InterfacePractice.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\bin\Debug\net8.0\InterfacePractice.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\refint\InterfacePractice.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\InterfacePractice.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\InterfacePractice\InterfacePractice\obj\Debug\net8.0\ref\InterfacePractice.dll

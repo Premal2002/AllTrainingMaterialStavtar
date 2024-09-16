@@ -1,0 +1,58 @@
+Day 3
+
+
+Serialization - It is a process to persist state of an object from one place to another(eg. ram to disk)
+ -- you have to mark class as a serializable or JSONSerializarnle for JSON formats
+
+Deserialization - It is a process to bring the object back to state(open object)
+
+--------------------------------------------------------------------------------------------
+
+Formats of data which can be used by serialization
+ - binary format(light weight but not cross platform)
+ - xml format(cross platform) - data
+ - SOAP (Simple Object Access Protocol) - SML based but more detailed - data + schema(eg data type)
+	--used alot in web services
+ - JSON(JavaScript Object Notation) - used in REST services
+	- This is more lighter, faster and flexible
+	-cross platform
+	- problems in web services solved in this
+	- based on Http web standards
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Collections - stores multiple values in a single variable
+	      and you can add, update, delete , retrive values, sort, filter, calculate, etc
+
+---------------------------------------------------------------------------------------------------------
+
+LINQ - Language Integrated Query - to work with data 
+      - sort , search, filter, add, update, delete data
+      - data related activities
+LINQ is already in C#
+
+
+----------------------------------------------------------------------------------------------------------
+
+Web Application
+
+Asp.Net + MVC(Model view Controller)
+
+Model - Logic - .cs file
+View - UI
+Controller = .cs file communication between model and view
+
+For Security we use - oData and oAuth
+
+oData - open source data- get data from everywhere
+      - 
+
+oAuth - 
+
+--------------------------------------------------------------------------------
+
+command - Scaffold-DbContext "server=PREMAL\SQLEXPRESS;database=ShoppingDB;integrated security=true;TrustServerCertificate=true" -OutputDir Models -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+

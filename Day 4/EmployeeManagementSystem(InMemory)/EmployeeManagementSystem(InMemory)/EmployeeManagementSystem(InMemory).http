@@ -1,0 +1,6 @@
+@EmployeeManagementSystem_InMemory__HostAddress = http://localhost:5215
+
+GET {{EmployeeManagementSystem_InMemory__HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

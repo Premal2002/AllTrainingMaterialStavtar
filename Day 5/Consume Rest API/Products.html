@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consume Products data API</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<style>
+    table img{
+        height: 100px;
+        width: 100px;
+    }
+</style>
+<script>
+    function getProducts(){
+        var url = "https://fakestoreapi.com/products";
+
+        fetch(url)
+        .then(dataFormat => dataFormat.json())
+        .then(data => {
+            alert("success");
+            //code to display
+            var tblProducts = document.getElementById("tblProducts");
+            tblProducts.innerHTML += "<tr><th>Title</th><th>Price</th><th>Description</th><th>Category</th><th>Image</th><th>Rating</th><th>Rating Count</th></tr>";
+            for(var i = 0;i < data.length; i++){
+                tblProducts.innerHTML += "<tr><td>"+data[i].title+"</td><td>"+data[i].price+"</td><td>"+data[i].description+"</td><td>"+data[i].category+"</td><td><img src='"+data[i].image+"' ></td><td>"+data[i].rating.rate+"</td><td>"+data[i].rating.count+"</td></tr>";
+            }
+            tblProducts.style();
+        })
+        .catch(error => {
+            alert("Error!!!");
+        })
+    }
+</script>
+<body>
+    <button onclick="getProducts()">Get Data</button>
+    <table id="tblProducts" border="1"></table>
+</body>
+</body>
+</html>

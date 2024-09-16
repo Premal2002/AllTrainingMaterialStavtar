@@ -1,0 +1,63 @@
+ng g c data-binding --skip-tests   -- here skip will not create a spec test file 
+	-- and if ypu want to skip a style use --skip-styles
+
+
+------------------------------------------------------------------
+
+interpolation - used to bind data from component to html. uses {{variable name}}  for getting value of that variable
+
+-----------------------------------------------------------------------
+
+property binding : used to get values in attributes like elements eg img src
+
+------------------------------------------------------------------------
+
+[(ngmodel)] -- used in 2 way data binding
+		-- need to have forms Module
+
+-------------------------------------------------------------------------------------------
+
+class biding
+style binding
+
+----------------------------------------------------------------------
+Directives : used to change behaviour of html 
+@component directive
+
+structural directive -- *ngId, *ngFor, * ngSwitch
+
+----------------------------------------------------------------------
+
+ngstableimage -  
+
+in img tag -  instead of src use ngSrc
+		-- and also ngSrcSet
+
+-----------------------------------------------------------------------
+inter component communication
+	- @input and @output decorator
+
+--------------------------------------------------------------
+template variable = you can delclare it in html like #variablename in an element
+
+------------------------------------------------------------------
+
+@viewChild  - template variable use or see in component
+		- to gain access of child component
+
+------------------------------------------------------------------
+Lifecycle hooks - 
+1. ngOnChanges() : triggers when we pass data from parent to child 		   after @Input decorator
+
+2.ngOnInit()- triggers after component is loaded
+
+3. ...
+
+----------------------------------------------------------------------
+
+stable standalone component - ng g c cName --standalone
+				- doesn't need do declare 
+
+
+--------------------------------------------------------------
+

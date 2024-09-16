@@ -1,0 +1,34 @@
+<div class="container">
+    <h3>Add New User Form</h3>
+    <form [formGroup]="userForm" (ngSubmit)="handleSubmit()">
+     
+        <div class="form-group mt-3">
+            <label>Name</label>
+            <input type="text" placeholder="Enter User Name" formControlName="name"
+                [ngClass]="{'is-invalid':submitted && form['name'].errors}" class="form-control" />
+     
+            <div *ngIf="submitted && form['name'].errors" class="invalid-feedback">
+                Name cannot be Empty
+            </div>
+        </div>
+        <div class="form-group mt-3">
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email" formControlName="email"
+                [ngClass]="{'is-invalid':submitted && form['email'].errors}" class="form-control" />
+     
+            <div *ngIf="submitted && form['email'].errors" class="invalid-feedback">
+                Email cannot be Empty
+            </div>
+        </div>
+        <div class="form-group mt-3">
+            <label>Country</label>
+            <input type="text" placeholder="Enter Country" formControlName="country"
+                [ngClass]="{'is-invalid':submitted && form['country'].errors}" class="form-control" />
+     
+            <div *ngIf="submitted && form['country'].errors" class="invalid-feedback">
+                Country cannot be Empty
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Add User</button>
+    </form>
+    </div>

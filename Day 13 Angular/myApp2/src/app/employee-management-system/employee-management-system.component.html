@@ -1,0 +1,48 @@
+<h1>Employee Management System</h1>
+
+<form (ngSubmit)="editForm? editEmployee(employee.id) : saveEmployee()" #employeeForm="ngForm">
+    <div class="mb-3">
+      <label for="exampleInputName" class="form-label">Name</label>
+      <input type="text" name="name" #name="ngModel" class="form-control" id="exampleInputName" [(ngModel)]="employee.name" required>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputSalary" class="form-label">Salary</label>
+        <input type="number" name="salary" #name="ngModel" class="form-control" id="exampleInputSalary"  [(ngModel)]="employee.salary" required min="1000">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputCity" class="form-label">City</label>
+        <input type="text" name="city" #name="ngModel" class="form-control" id="exampleInputCity"  [(ngModel)]="employee.city" required>
+      </div>
+    <button type="submit" class="btn btn-primary" [disabled]="employeeForm.invalid">{{editForm? 'Edit Employee' : 'Save Employee'}}</button>
+  </form>
+
+<div *ngIf = "employees.length > 0">
+    <h2  class="mt-3">Employee List</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">Salary</th>
+        <th scope="col">City</th>
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let e of employees" (click)="changeCurrEmp(e)">
+        <th scope="row">{{e.id}}</th>
+        <td>{{e.name}}</td>
+        <td>{{e.salary}}</td>
+        <td>{{e.city}}</td>
+        <td><button class="btn btn-danger btn-sm" (click)="deleteEmployee(e.id)">X</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div>
+    <i class="bi bi-bag-x-fill"></i>
+</div>
+  
+
+

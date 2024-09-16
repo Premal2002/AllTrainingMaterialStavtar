@@ -1,0 +1,43 @@
+
+
+<!-- <div class="container">
+  <app-register></app-register>
+</div> -->
+
+<!-- <div class="container">
+  <app-pipes></app-pipes>
+</div> -->
+
+
+<div class="container mb-3">
+  <ul class="nav nav-underline">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" routerLink="list">Product List</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="addProduct">Add Product</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="dashboard">Dashboard</a>
+    </li>
+    <li class="nav-item" *ngIf = "loggedIn">
+      <button class=" ms-auto btn bg-secondary"(click)="logout()">Logout</button>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="customer">Customer</a>
+    </li>
+
+  </ul>
+  
+</div>
+
+
+
+<!-- <app-reader></app-reader> -->
+<!-- 
+<app-user-list></app-user-list> -->
+
+
+<!-- <app-customer></app-customer> -->
+
+<router-outlet></router-outlet>

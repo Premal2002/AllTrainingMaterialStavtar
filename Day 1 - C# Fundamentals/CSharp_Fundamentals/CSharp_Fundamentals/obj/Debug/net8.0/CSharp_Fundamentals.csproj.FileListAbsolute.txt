@@ -1,0 +1,14 @@
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\bin\Debug\net8.0\CSharp_Fundamentals.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\bin\Debug\net8.0\CSharp_Fundamentals.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\bin\Debug\net8.0\CSharp_Fundamentals.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\bin\Debug\net8.0\CSharp_Fundamentals.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\bin\Debug\net8.0\CSharp_Fundamentals.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\refint\CSharp_Fundamentals.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\CSharp_Fundamentals.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\CSharp_Fundamentals\CSharp_Fundamentals\obj\Debug\net8.0\ref\CSharp_Fundamentals.dll

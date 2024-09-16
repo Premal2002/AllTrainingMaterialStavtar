@@ -1,0 +1,35 @@
+To update npm : npm update npm
+
+------------------------------------------
+
+tsconfig.js
+
+package.json : 
+
+	lock.json : exact location and version of all packages
+
+-------------------------------------------------------
+component :
+html
+css
+ts
+
+spec.ts - for ts
+
+-----------------------------------------------------
+
+converting typescript to javascript is called as transpilation (like compilation)
+
+-------------------------------------------------------------------
+
+by default it is converted into ecmascript 
+to convert into es6 : use tsc dataType.ts --target es6 while compiling
+
+--------------------------------------------------------
+
+
+Event Loop : mam drawed a diagram
+
+----------------------------------------------------------------------
+
+--skip tests

@@ -1,0 +1,14 @@
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\bin\Debug\net8.0\EmployeeManagement.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\bin\Debug\net8.0\EmployeeManagement.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\bin\Debug\net8.0\EmployeeManagement.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\bin\Debug\net8.0\EmployeeManagement.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\bin\Debug\net8.0\EmployeeManagement.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\refint\EmployeeManagement.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\EmployeeManagement.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\EmployeeManagement\EmployeeManagement\obj\Debug\net8.0\ref\EmployeeManagement.dll

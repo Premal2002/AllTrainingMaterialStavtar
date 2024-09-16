@@ -1,0 +1,13 @@
+.active{
+    color : blue;
+}
+
+.btnColor{
+    color : white;
+}
+
+.btnBgColor{
+    background-color: black;
+    border: 1px solid yellow;
+    padding: 5px 10px;
+}

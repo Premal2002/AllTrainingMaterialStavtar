@@ -1,0 +1,64 @@
+ASp.net core
+1.Web App(MVC)  -- company uses Angular instead
+2.REST API -- This is what we are going to study
+
+ASP.Net Core(REST API)
+
+
+
+
+
+
+
+--------------------------------------------
+
+REST API with 
+
+Collections 
+SQL server Date
+
+-------------------
+
+create new rest api app
+add new class  - Products , add properties, data, CRUD methods
+
+
+-----------------------------------------------------------------------
+
+public IActionResuld  -  It is a interface and used in return type if all controller methods
+			- this will always return HttpStatusCode and Data(JSON)
+
+
+---------------------------------------------------------------------------------------------------
+
+HTTP response status codes
+HTTP response status codes indicate whether a specific HTTP request has been successfully completed. Responses are grouped in five classes:
+
+Informational responses (100 – 199)
+Successful responses (200 – 299)
+Redirection messages (300 – 399)
+Client error responses (400 – 499)
+Server error responses (500 – 599)
+
+More Details : https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#client_error_responses
+
+
+-------------------------------------------------------------------------------------------------------
+
+create new databse and a table with some data shoppingDB_2
+create webAPI project shoppingAPI
+create Entity Framework , by adding 4 nuget packages
+	-Microsoft.EntityFrameworkCore
+	-Microsoft.EntityFrameworkCore.Design
+	-Microsoft.EntityFrameworkCore.Toos
+	-Microsoft.EntityFrameworkCore.SqlServer
+we need to generate POCo classes - plain C# objects
+	- this classes mapped to tables in database
+	- classes will have properties - mapped to columns in the table
+
+-----------------------------------------------------------------------------------------------------------------
+
+Youtube videos to watch :
+https://www.youtube.com/watch?v=Dc9bSebPbe4
+https://www.youtube.com/watch?v=q7mTB2EWOHA&pp=ygUjand0IHRva2VuIGF1dGhlbnRpY2F0aW9uIHdlYiBhcGkgYyM%3D 
+

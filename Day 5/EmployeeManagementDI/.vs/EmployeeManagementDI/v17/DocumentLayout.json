@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\employeemanagementdi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\employeemanagementdi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\models\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\models\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\employeemanagementdi\\employeemanagementdi\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED3040F2-FF8D-40A9-8710-6C6EF5DE9642}|EmployeeManagementDI\\EmployeeManagementDI.csproj|solutionrelative:employeemanagementdi\\accounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T12:46:47.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Program.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Program.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:59:22.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeManagementDI.csproj",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\EmployeeManagementDI.csproj",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\EmployeeManagementDI.csproj",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\EmployeeManagementDI.csproj",
+              "RelativeToolTip": "EmployeeManagementDI\\EmployeeManagementDI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-28T11:03:24.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:56:17.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Accounts.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Accounts.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Accounts.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Accounts.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Accounts.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T10:42:18.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeesController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Controllers\\EmployeesController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Controllers\\EmployeesController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Controllers\\EmployeesController.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Controllers\\EmployeesController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwFEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:18:39.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Controllers\\DepartmentsController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Controllers\\DepartmentsController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Controllers\\DepartmentsController.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Controllers\\DepartmentsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:19:06.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Models\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementDI\\Models\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\EmployeeManagementDI\\EmployeeManagementDI\\Models\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EmployeeManagementDI\\Models\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-28T11:17:55.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

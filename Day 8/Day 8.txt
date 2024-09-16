@@ -1,0 +1,26 @@
+DLL -- Dynamic Linking Library(doesn't contains main method)
+
+PDB -- Program Debug Database
+
+--------------------------------------------------------------
+
+Jsonserialization -- jsoncamelcasing true
+
+-----------------------------------------------------
+curser
+stored procedure
+case then
+indexing types : 
+	Clustered Index
+	Definition: A clustered index determines the physical order of data in a table. Each table can have 	only one clustered index because the rows themselves are sorted based on this index.
+
+	Characteristics:
+
+	The table data is stored in the order of the index.
+	Ideal for columns that are often used in range queries or sorting operations.
+	Example: If you create a clustered index on the EmployeeID column of an Employees table, the rows in 	the table will be stored in ascending order of EmployeeID.
+
+	sql
+	Copy code
+	CREATE CLUSTERED INDEX idx_employee_id
+	ON Employees (EmployeeID);

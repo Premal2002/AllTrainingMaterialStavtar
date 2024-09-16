@@ -1,0 +1,62 @@
+
+Day 1
+
+c - Dennis Rirchie
+c++ - Bjarne Stroustrup
+c# - Anders Hejlsberg
+
+Data types
+
+Switch Case 
+
+Classes
+
+Methods
+
+Method Overloading - 
+
+Params int[] numbers -- 
+
+constructors -
+
+Enumeration - constants
+
+Property - props - Accounts class 
+   Example  = public int number {get; set;} 
+
+   Elaboration = int myNum;
+		public int MyNumber {
+			get{ return myNum} set{ myNum = value}
+		}
+
+
+https://visualstudio.microsoft.com/vs/community/
+
+Day 1:
+
+Lab :
+
+	Create a new on .Net core on C# language Name: EmployeeManagementSystem
+		it should have below functionalities
+
+		1. Add a class file -  Employee.cs
+		2. Enumfile - MyEnumerations.cs
+		3. in the class file add below properties, methods 
+	empNo, empName, empDesignation,empSalary,empIsActive,empGender,empAvailableLeaves
+				
+				from above empDesignation and empGender are Enum type
+				use appropriate values for the same as per your understanding
+		4. Add below methods
+			CalculateBonus - take percentage value as input and return percentage of 			empSalary
+			
+			ApplyLeave ( take no of days from user and minus from empAvailableLeaves	 			and return the remaining leaves to user) 
+				it will take 2 parmeters
+				days, LeaveType (which is Enum)
+
+			use proper exception handling 
+
+		5. Have method which will return Name, Designation, Salary of the user
+	
+		6. In program.cs have an Menu for options like we had in banking
+		
+			

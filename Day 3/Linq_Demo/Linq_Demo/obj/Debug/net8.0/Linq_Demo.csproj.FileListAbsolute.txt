@@ -1,0 +1,14 @@
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\bin\Debug\net8.0\Linq_Demo.exe
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\bin\Debug\net8.0\Linq_Demo.deps.json
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\bin\Debug\net8.0\Linq_Demo.runtimeconfig.json
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\bin\Debug\net8.0\Linq_Demo.dll
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\bin\Debug\net8.0\Linq_Demo.pdb
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.AssemblyInfo.cs
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.dll
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\refint\Linq_Demo.dll
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.pdb
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\Linq_Demo.genruntimeconfig.cache
+C:\Users\PremalKadam\source\repos\Linq_Demo\Linq_Demo\obj\Debug\net8.0\ref\Linq_Demo.dll

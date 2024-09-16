@@ -1,0 +1,44 @@
+<h1>Directives in angular</h1>
+
+<hr>
+<h3>Ng IF Directive</h3>
+<h2 *ngIf="flag">My Heading</h2>
+<button (click) = "change()" >{{flag? 'Hide' : 'Show'}}</button>
+
+<hr>
+
+<h3>Ng For Directive</h3>
+<table class="table">
+    <thead>
+      <tr class="table-dark">
+        <th scope="col">ID</th>
+        <th scope="col">Name</th>
+        <th scope="col">City</th>
+        <th scope="col">Percentage</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr  *ngFor = "let s of students" [ngClass]="{'table-danger' : s.percentage<35, 'table-success' : s.percentage>=35}" >
+        <td>{{s.id}}</td>
+        <td>{{s.name}}</td>
+        <td>{{s.city}}</td>
+        <td>{{s.percentage}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <h3>Ng Switch Directive</h3>
+  <input type="number" [(ngModel)] = "input" placeholder="Enter any number" min="1" max="7">
+  <div [ngSwitch] = "input">
+    <p *ngSwitchCase = "1">Today is Sunday</p>
+    <p *ngSwitchCase = "2">Today is Monday</p>
+    <p *ngSwitchCase = "3">Today is Tuesday</p>
+    <p *ngSwitchCase = "4">Today is Wednesday</p>
+    <p *ngSwitchCase = "5">Today is Thursday</p>
+    <p *ngSwitchCase = "6">Today is Friday</p>
+    <p *ngSwitchCase = "7">Today is Satuarday</p>
+  </div>
+
+  <hr>

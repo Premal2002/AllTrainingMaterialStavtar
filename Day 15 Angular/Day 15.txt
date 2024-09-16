@@ -1,0 +1,25 @@
+Standalone app
+
+----------------------------------------------------------
+
+Material UI
+
+-----------------------------------------------------------------------
+
+Testing tools - Jasmine
+	-- Mather functions - tobe, etc..
+
+------------------------------------------------------------------------
+
+ESBUILD -  ng build --configuration=production 
+
+--sourceMap in angular.json 
+
+-----------------------------------------------------------
+
+JSON server on local machine : 
+-create a folder
+-open that folder in vsCode
+-install json-server module globally
+
+to start json-server : json-server filename

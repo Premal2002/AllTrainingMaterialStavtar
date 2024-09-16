@@ -1,0 +1,35 @@
+Reactive Forms - 
+
+validators 
+custom validatorss
+
+
+-------------------------------------------------------------------------
+
+Pipes - used to transform or format data displayed in views
+
+	- inbuilt and custom
+
+-------------------------------------------------------------------------
+
+services -- can be used as singleton to share data between components and maintain a shared state across the application
+
+
+-------------------------------------------------------------------------
+Observables - 
+
+
+
+-------------------------------------------------------------------------
+for api calling - 
+
+-----------------------------------------------------------------------
+Protected route - canActivate
+
+unsavedChanges - canDeactivate
+
+------------------------------------
+
+----------------------------------------------------
+
+Modules

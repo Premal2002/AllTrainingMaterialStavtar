@@ -1,0 +1,14 @@
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0\EmployeeManagementSystem.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0\EmployeeManagementSystem.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0\EmployeeManagementSystem.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0\EmployeeManagementSystem.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0\EmployeeManagementSystem.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\refint\EmployeeManagementSystem.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\EmployeeManagementSystem.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 1 - C# Fundamentals\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0\ref\EmployeeManagementSystem.dll

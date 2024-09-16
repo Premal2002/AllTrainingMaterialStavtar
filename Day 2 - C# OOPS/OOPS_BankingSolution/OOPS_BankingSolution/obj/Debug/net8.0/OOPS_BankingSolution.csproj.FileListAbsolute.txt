@@ -1,0 +1,14 @@
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\bin\Debug\net8.0\OOPS_BankingSolution.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\bin\Debug\net8.0\OOPS_BankingSolution.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\bin\Debug\net8.0\OOPS_BankingSolution.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\bin\Debug\net8.0\OOPS_BankingSolution.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\bin\Debug\net8.0\OOPS_BankingSolution.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\refint\OOPS_BankingSolution.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\OOPS_BankingSolution.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Day 2 - C# OOPS\OOPS_BankingSolution\OOPS_BankingSolution\obj\Debug\net8.0\ref\OOPS_BankingSolution.dll

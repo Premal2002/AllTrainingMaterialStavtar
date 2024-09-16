@@ -1,0 +1,13 @@
+<input type="text" [(ngModel)]="task" class="form-control mt-3" placeholder="Enter your task" required>
+<button (click)="saveTask()" class="btn btn-primary mt-3">Add Task</button>
+
+
+<h3 *ngIf="todos.length>0" class="mt-3">Tasks</h3>
+<ol class="list-group list-group-numbered">
+    <li class="list-group-item" *ngFor="let t of todos">
+        {{t.task}} -- status -- {{t.status}}
+        <button class="btn btn-success float-end" (click) = "onUpdate(t.id)">Update</button>
+        <button class="btn btn-danger float-end me-2" (click) = "onDelete(t.id)">X</button>
+        
+    </li>
+</ol>

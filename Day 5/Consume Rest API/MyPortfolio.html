@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nasa Imange of Entered Date</title>
+</head>
+<script>
+    function getImage(){
+        var date = document.getElementById("myDate").value;
+        console.log(date);
+        
+        var imgDiv = document.getElementById("imgDiv");
+        var url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=JVvOMGA1mMGC0pC6BCrCtaYC40dF9EYCyvTH5Vwg`;
+        fetch(url)
+        .then(dataFormat => dataFormat.json())
+        .then(data => {
+            alert("success");
+            //
+            imgDiv.innerHTML = "<img src = '"+data.url+"' />";
+        })
+        .catch(error => {
+            alert("Error!!!");
+        })
+    }
+</script>
+<body>
+    <h1>Get NASA Image by providing date</h1>
+    <span>Select Date </span><input type="text" id="myDate">
+    <button onclick="getImage()">Get Image</button>
+    <div id="imgDiv"></div>
+</body>
+</html>

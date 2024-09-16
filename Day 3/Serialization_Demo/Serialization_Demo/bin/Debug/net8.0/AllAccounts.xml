@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Accounts>
+    <AccountNumber>101</AccountNumber>
+    <AccountName>Saurabh</AccountName>
+    <Accountbalance>10000</Accountbalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>PF</AccountType>
+  </Accounts>
+  <Accounts>
+    <AccountNumber>102</AccountNumber>
+    <AccountName>Premal</AccountName>
+    <Accountbalance>10000</Accountbalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>Saving</AccountType>
+  </Accounts>
+  <Accounts>
+    <AccountNumber>103</AccountNumber>
+    <AccountName>Sammer</AccountName>
+    <Accountbalance>10000</Accountbalance>
+    <AccountIsActive>true</AccountIsActive>
+    <AccountType>Current</AccountType>
+  </Accounts>
+</ArrayOfAccounts>

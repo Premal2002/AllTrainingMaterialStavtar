@@ -1,0 +1,31 @@
+Stored Procodure -- 
+
+-------------------------------------------------------------------- 
+
+CREATE PROCEDURE PlaceOrder
+    @CustomerID INT,
+    @ProductID INT,
+    @Quantity INT
+AS
+BEGIN
+    DECLARE @OrderID INT;
+    
+    -- Insert into Orders
+    INSERT INTO dbo.Orders (CustomerID) VALUES (@CustomerID);
+    SET @OrderID = SCOPE_IDENTITY();
+    
+    -- Insert into OrderDetails
+    INSERT INTO dbo.OrderDetails (OrderID, ProductID, Quantity)
+    VALUES (@OrderID, @ProductID, @Quantity);
+END;
+GO
+
+
+---------------------------------------------------------------
+
+TEMP TABLE  
+
+
+------------------------------------------------------------
+TRANSACTIONS 
+
