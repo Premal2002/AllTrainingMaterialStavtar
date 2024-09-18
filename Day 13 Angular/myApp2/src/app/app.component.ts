@@ -17,6 +17,7 @@ export class AppComponent {
   child! : ChildComponent;
 
   
+  
   // ngAfterViewInit(){
   //   // this.inputEl.nativeElement.focus();
   //   this.child.hello();

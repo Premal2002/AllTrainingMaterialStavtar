@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\employeedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\employeedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\addemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,26 +87,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmployeeData.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
               "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
               "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-29T07:21:15.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Controllers\\HomeController.cs",
               "RelativeToolTip": "HttpClient_Calls\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAApwDIAAABoAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T08:05:36.5Z",
               "EditorCaption": ""

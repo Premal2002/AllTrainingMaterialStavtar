@@ -1,0 +1,46 @@
+ <!-- Vendor List -->
+ <div class="row" *ngIf="vendors.length>0">
+    <div class="col-md-12">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h5>List of Vendors</h5>
+          <button class="btn btn-secondary float-end mt-2" (click)="exportVendors()">Download CSV</button>
+        </div>
+        <div class="card-body table-responsive">
+          <table class="table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th>Vendor Code</th>
+                <th>Vendor Name</th>
+                <th>Vendor Phone</th>
+                <th>Vendor Email</th>
+                <th>Created On</th>
+                <th>IsActive</th>
+              </tr>
+            </thead>
+            <tbody>
+                <!-- *ngFor -->
+              <tr *ngFor="let v of vendors">  
+                <td>{{v.vendorCode}}</td>
+                <td>{{v.vendorLongName}}</td>
+                <td>{{v.vendorPhoneNumber}}</td>
+                <td>{{v.vendorEmail}}</td>
+                <td>{{v.vendorCreatedOn | date}}</td>
+                <td>{{v.isActive}}</td>
+                <td><button class="btn btn-danger" (click)="deleteVendor(v.vendorCode)">Delete</button></td>
+                <td><button class="btn btn-success" (click)="updateVendor(v.vendorCode)">Update</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="vendors.length==0" class="d-flex flex-column" >
+    
+    <img src="../../../assets/empty-folder.png" class="img-fluid w-25 m-auto" alt="...">
+    <h2 class="text-center">Nothing in here...</h2>
+  </div>
+
+

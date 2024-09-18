@@ -37,11 +37,21 @@ namespace VendorManagementAPI
             return invoiceList;
         }
 
+        public Invoice GetInvoiceByNumber(int iNumber)
+        {
+            Invoice invoice = invoiceList.Find(i => i.InvoiceNumber  == iNumber);
+            if (invoice != null)
+            {
+                return invoice;
+            }
+            throw new Exception("Invoice with invoice number " + iNumber + " is not present");
+        }
+
         public string AddInvoice(Invoice invoice)
         {
             #region Auto generated invoice Id
 
-            autoInvoiceId = invoiceList.Count + 1;
+            autoInvoiceId = invoiceList.Max(i => i.InvoiceId) + 1;
             #endregion
 
             invoice.InvoiceId = autoInvoiceId;
@@ -65,9 +75,11 @@ namespace VendorManagementAPI
 
             if (invoice.InvoiceDueDate < DateTime.Now)
             {
-                throw new Exception("Please enter valid date!!!");
+                throw new Exception("Please enter valid due date!!!");
             }
             #endregion
+            invoice.InvoiceReceivedDate = DateTime.Now;
+            invoice.IsActive = true;
 
             invoiceList.Add(invoice);
             return "Invoice added successfully";
@@ -87,6 +99,8 @@ namespace VendorManagementAPI
                     throw new Exception("Please enter valid date!!!");
                 }
 
+                tempInvoice.InvoiceCurrencyId = invoice.InvoiceCurrencyId;
+                tempInvoice.VendorId = invoice.VendorId;
                 tempInvoice.InvoiceDueDate = invoice.InvoiceDueDate;
                 tempInvoice.InvoiceAmount = invoice.InvoiceAmount;
                 tempInvoice.IsActive = invoice.IsActive;

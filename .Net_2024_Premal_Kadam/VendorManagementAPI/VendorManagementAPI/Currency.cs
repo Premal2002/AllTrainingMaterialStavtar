@@ -28,10 +28,20 @@ namespace VendorManagementAPI
             }
             return currencyList;
         }
+
+        public Currency GetCurrencyByCode(string cCode)
+        {
+            Currency currency = currencyList.Find(c => c.CurrencyCode == cCode);
+            if (currency != null)
+            {
+                return currency;
+            }
+            throw new Exception("Currency with code " + cCode + " is not present");
+        }
         public string AddCurrency(Currency currency)
         {
             #region Auto generated currency Id
-            autoCurrencyId = currencyList.Count + 1;
+            autoCurrencyId = currencyList.Max(c => c.CurrencyId) + 1;
             #endregion
 
             currency.CurrencyId = autoCurrencyId;

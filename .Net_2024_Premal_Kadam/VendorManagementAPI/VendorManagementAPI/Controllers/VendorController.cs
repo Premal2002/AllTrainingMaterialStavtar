@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Reactive.Linq;
+
 
 namespace VendorManagementAPI.Controllers
 {
@@ -28,13 +30,30 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
+        [HttpGet("getVendorByCode/{vCode}")]
+        public IActionResult GetVendorByCode(string vCode)
+        {
+            try
+            {
+                var v = vendor.GetVendorByCode(vCode);
+                return Ok(v);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+
+
         [HttpPost]
         public IActionResult AddVendors([FromBody] Vendor vendorREF)
         {
             try
             {
                 var msg = vendor.AddVendor(vendorREF);
-                return Created("", msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Created("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -42,13 +61,14 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
-        [HttpPut("/{vCode}")]
+        [HttpPut("/api/Vendor/{vCode}")]
         public IActionResult UpdateVendors(string vCode, [FromBody] Vendor vendorREF)
         {
             try
             {
                 var msg = vendor.UpdateVendor(vCode,vendorREF);
-                return Accepted("", msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Accepted("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -57,13 +77,14 @@ namespace VendorManagementAPI.Controllers
         }
 
 
-        [HttpDelete("/{vendorCode}")]
+        [HttpDelete("{vendorCode}")]
         public IActionResult DeleteVendor(string vendorCode)
         {
             try
             {
                 var msg = vendor.DeleteVendor(vendorCode);
-                return Accepted(msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Accepted("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -72,13 +93,14 @@ namespace VendorManagementAPI.Controllers
         }
 
         [HttpPost]
-        [Route("/vendors/export")]
+        [Route("export")]
         public IActionResult ExportVendorList()
         {
             try
             {
                 var msg = vendor.ExportVendorList();
-                return Ok(msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Ok(stringObservable);
             }
             catch (Exception ex)
             {

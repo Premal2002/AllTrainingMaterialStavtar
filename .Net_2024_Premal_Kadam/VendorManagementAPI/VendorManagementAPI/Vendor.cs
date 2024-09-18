@@ -34,13 +34,24 @@ namespace VendorManagementAPI
             return vendorList;
         }
 
+        public Vendor GetVendorByCode(string VendorCode)
+        {
+            Vendor vendor = vendorList.Find(v => v.VendorCode == VendorCode);
+            if (vendor != null)
+            {
+                return vendor;
+            }
+            throw new Exception("Vendor with vendor code " + VendorCode + " is not present");
+        }
+
+
         public string AddVendor(Vendor vendor)
         {
             #region Auto generated vendor Id
 
-            autoVendorId = vendorList.Count + 1;
+            autoVendorId = vendorList.Max(v => v.VendorId)+ 1;
             #endregion
-            vendor.VendorId = autoVendorId++;
+            vendor.VendorId = autoVendorId;
 
             #region Validations
             if (string.IsNullOrWhiteSpace(vendor.VendorLongName))
@@ -153,12 +164,12 @@ namespace VendorManagementAPI
             FileStream file = new FileStream("vendorList.csv", FileMode.Create, FileAccess.Write);
             StreamWriter writer = new StreamWriter(file);
 
-            writer.WriteLine("vendorId, VendorName, VendorCode, VendorPhoneNumber, VendorEmail, IsVendorActive");
+            writer.WriteLine("vendorId, VendorName, VendorCode, VendorPhoneNumber, VendorEmail,Vendor Creation Date, IsVendorActive");
             if (vendorList.Count() > 0)
             {
                 foreach (var item in vendorList)
                 {
-                    writer.WriteLine($"{item.VendorId},{item.VendorLongName},{item.VendorCode},{item.VendorPhoneNumber},{item.VendorEmail},{item.IsActive}");
+                    writer.WriteLine($"{item.VendorId},{item.VendorLongName},{item.VendorCode},{item.VendorPhoneNumber},{item.VendorEmail}, {item.VendorCreatedOn}, {item.IsActive}");
                 }
             }
             writer.Close();

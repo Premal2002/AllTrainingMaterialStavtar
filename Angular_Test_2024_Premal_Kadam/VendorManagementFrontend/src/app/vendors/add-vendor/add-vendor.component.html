@@ -1,0 +1,60 @@
+<h3>{{fromUpdate ? 'Edit Vendor Form' : 'Vendor Form'}}</h3>
+    <form [formGroup]="vendorForm" (ngSubmit)="fromUpdate ?  updateVendor() : handleSubmit()">
+        <div class="form-group">
+            <label> Vendor Code</label>
+            <input type="text" placeholder="Enter Vendor Code" formControlName="vendorCode"
+                [ngClass]="{'is-invalid': submitted && form['vendorCode'].errors}" class="form-control" [readonly] ="fromUpdate"/>
+            <div *ngIf="submitted && form['vendorCode'].errors" class="invalid-feedback">
+                <div *ngIf="form['vendorCode'].errors['required']">
+                    Vendor Code cannot be empty
+                </div>
+                <div *ngIf="form['vendorCode'].errors['pattern']">
+                    Vendor Code must be alphanumeric and between 3 to 10 characters
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Vendor Name</label>
+            <input type="text" placeholder="Enter Vendor Name" formControlName="vendorLongName"
+                [ngClass]="{'is-invalid': submitted && form['vendorLongName'].errors}" class="form-control" />
+            <div *ngIf="submitted && form['vendorLongName'].errors" class="invalid-feedback">
+                <div *ngIf="form['vendorLongName'].errors['required']">
+                    Vendor Name cannot be empty
+                </div>
+                <div *ngIf="form['vendorLongName'].errors['minlength']">
+                    Vendor Name must be at least 3 characters long
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Contact Number</label>
+            <input type="text" placeholder="Enter Contact Number" formControlName="vendorPhoneNumber"
+                [ngClass]="{'is-invalid': submitted && form['vendorPhoneNumber'].errors}" class="form-control" />
+            <div *ngIf="submitted && form['vendorPhoneNumber'].errors" class="invalid-feedback">
+                <div *ngIf="form['vendorPhoneNumber'].errors['required']">
+                    Contact Number cannot be empty
+                </div>
+                <div *ngIf="form['vendorPhoneNumber'].errors['pattern']">
+                    Contact Number must be 10 digits long
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="Enter Email" formControlName="vendorEmail"
+                [ngClass]="{'is-invalid': submitted && form['vendorEmail'].errors}" class="form-control" />
+            <div *ngIf="submitted && form['vendorEmail'].errors" class="invalid-feedback">
+                <div *ngIf="form['vendorEmail'].errors['required']">
+                    Email cannot be empty
+                </div>
+                <div *ngIf="form['vendorEmail'].errors['email']">
+                    Enter a valid email address
+                </div>
+            </div>
+        </div>
+
+        <button type="submit" class="btn mt-3 bg-success text-light">{{fromUpdate ? 'Update Vendor' : 'Add Vendor'}}</button>
+    </form>

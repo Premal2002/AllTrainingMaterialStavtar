@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 5\\httpclient_calls\\httpclient_calls\\views\\home\\employeedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D9D2719-FF7D-4B54-8286-B886D0506B5A}|HttpClient_Calls\\HttpClient_Calls.csproj|solutionrelative:httpclient_calls\\views\\home\\employeedata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -66,15 +70,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Program.cs",
+              "RelativeDocumentMoniker": "HttpClient_Calls\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Program.cs",
+              "RelativeToolTip": "HttpClient_Calls\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:45:04.651Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\Employee.cs",
@@ -82,12 +99,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Models\\Employee.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAA0wAwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T07:31:26.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T07:31:26.583Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EmployeeData.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\EmployeeData.cshtml",
@@ -100,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Controllers\\HomeController.cs",
@@ -108,12 +124,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Controllers\\HomeController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T08:05:36.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T08:05:36.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "PostData.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\PostData.cs",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\PostData.cs",
@@ -121,12 +136,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Models\\PostData.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAkwBkAAACFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T07:45:20.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T07:45:20.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\ErrorViewModel.cs",
@@ -134,12 +148,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T06:51:10.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T06:51:10.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AddEmployee.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
@@ -147,12 +160,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\AddEmployee.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T08:02:03.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T08:02:03.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Post.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Post.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\Post.cshtml",
@@ -160,12 +172,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\Post.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T08:07:37.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T08:07:37.28Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductData.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Models\\ProductData.cs",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Models\\ProductData.cs",
@@ -173,12 +184,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Models\\ProductData.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAwwBgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T09:30:44.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T09:30:44.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
@@ -186,12 +196,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T09:20:39.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T09:20:39.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\Index.cshtml",
@@ -199,12 +208,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T07:47:40.836Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T07:47:40.836Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\_ViewStart.cshtml",
@@ -212,12 +220,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T06:50:45.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T06:50:45.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
@@ -225,12 +232,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T07:14:18.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T07:14:18.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "ProductByCategory.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
@@ -238,12 +244,11 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\Home\\ProductByCategory.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T09:39:20.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T09:39:20.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 5\\HttpClient_Calls\\HttpClient_Calls\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "HttpClient_Calls\\Views\\_ViewImports.cshtml",
@@ -251,8 +256,7 @@
               "RelativeToolTip": "HttpClient_Calls\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-29T06:50:41.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T06:50:41.02Z"
             }
           ]
         }

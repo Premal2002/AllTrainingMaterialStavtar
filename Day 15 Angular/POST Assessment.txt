@@ -1,0 +1,197 @@
+
+Angular Training - Post Test 2
+premkasdam143@gmail.com Switch accounts
+ 
+Not shared
+ 
+Draft saved
+* Indicates required question
+Name
+*
+Premal Subhash Kadam
+E-Mail
+*
+pkadam@stavtar.com
+How would you use @Input, @Output, EventEmitter, and ViewChild to create a communication flow between a parent and multiple child components, where the parent component sends data to each child, and the child components emit events back to the parent?  
+@Input: Use this decorator in child components to receive data from the parent.
+@Output: Use this in child components to emit events to the parent.
+EventEmitter: Create an instance of EventEmitter in the child component and use it to send events.
+ViewChild: Use this decorator in the parent component to access child component methods or properties.
+
+Child Component : 
+@Input() data : any;
+
+  cevent : EventEmitter<string> = new EventEmitter<string>();
+
+  onChange(value : string){
+    this.cevent.emit(value);
+  }
+
+Parent Component : 
+Html : 
+<input type="text" #pdata (keyup)="0">
+    <app-child [data] = "pdata.value" (cevent) = "cdata=$event"></app-child>
+
+TS : 
+cdata : string ="";
+
+  @ViewChild("inputData")
+  inputEl! : ElementRef;
+Explain how the async/await pattern works in TypeScript. Given a service that fetches data from an API, how would you implement error handling for the API call using async/await and try/catch blocks?  
+The async keyword marks a function as asynchronous, allowing the use of await inside it.
+await pauses execution until the promise resolves.
+
+async fetchData() {
+  try {
+    const data = await this.apiService.getData();
+    return data;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+  }
+}
+Write a custom Angular pipe that takes a string input and transforms it into title case (first letter of each word capitalized). Explain how to handle edge cases such as strings containing punctuation or numbers.  
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({ name: 'titleCase' })
+export class TitleCasePipe implements PipeTransform {
+  transform(value: string): string {
+    if (!value) return value;
+    return value
+      .toLowerCase()
+      .split(/(?:[\s-]|(?<=\w)\s(?=\w))/)
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+}
+Describe how lazy loading works in Angular. How would you structure a large application with multiple feature modules using lazy loading to improve performance? Include a description of how route guards can be integrated with lazy-loaded modules.  
+Lazy Loading: Modules are loaded only when needed, improving initial load time.
+Route Guards: Implement CanActivate and CanDeactivate to protect routes and manage navigation based on user authentication.
+You are tasked with creating an HTTP request that retries three times before failing and handles errors gracefully. How would you implement this using Angular’s HttpClient and RxJS operators such as retry, catchError, and map?  
+getAllUsers() : Observable<any[]> {
+    return this.http.get<any[]>(this.baseURL).pipe(
+      retry(3),
+      map(response=><any[]>response),
+      catchError(error=>{
+        console.log(error);
+        return of([]);
+        
+      })
+    );
+  }
+In a reactive form, you need to create a custom asynchronous validator that checks if a username already exists in the database (using an HTTP request). How would you implement this validator, and how would you integrate it into the form?  
+export function usernameValidator(service: ApiService): AsyncValidatorFn {
+  return (control: AbstractControl) => {
+    if (!control.value) return of(null);
+    return control.valueChanges.pipe(
+      debounceTime(300),
+      switchMap(value => service.checkUsername(value)),
+      map(isTaken => (isTaken ? { usernameTaken: true } : null)),
+      catchError(() => of(null))
+    );
+  };
+}
+
+Component : 
+@Component({
+  selector: 'app-registration',
+  templateUrl: './registration.component.html'
+})
+export class RegistrationComponent {
+  registrationForm: FormGroup;
+
+  constructor(private fb: FormBuilder, private apiService: ApiService) {
+    this.registrationForm = this.fb.group({
+      username: [
+        '',
+        [Validators.required],
+        [usernameValidator(this.apiService)]
+      ]
+    });
+  }
+}
+
+Angular services are often singletons by design, but what are the possible consequences of using a service with a shared state across different components? How can you modify the service to ensure that each component gets a new instance of the service?  
+Shared state can lead to unintended side effects and data leakage between components.
+New Instance: Provide the service in the providers array of the component if a unique instance is needed.
+You need to implement a routing system in an Angular application that prevents navigation to certain routes based on the user’s authentication status. How would you configure the CanActivate and CanDeactivate route guards to achieve this, and how would you reduce boilerplate code in guard implementations using new Angular features?  
+CanActivate: Prevent navigation to routes if the user is not authenticated.
+CanDeactivate: Prompt user if they attempt to leave a route with unsaved changes.
+Reduce Boilerplate: Use @Injectable() with guards and Angular’s dependency injection to streamline guard logic.
+
+app-routing-module : 
+const routes: Routes = [
+  {path : 'dashboard', component : DashboardComponent, canDeactivate : [TestGuardGuard], canActivate : [AuthGuard], canActivateChild : [AuthGuard] ,children : [
+    {path : 'childa', component : ChildAComponent},
+    {path : 'childb', component : ChildBComponent},
+  ]}
+];
+
+Auth Guard : 
+export class AuthGuard implements CanActivate, CanActivateChild {
+
+  constructor(private authService : AuthService,private router:Router){}
+  canActivateChild(childRoute: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    return this.canActivate(childRoute,state);
+    }
+  canActivate(
+    route: ActivatedRouteSnapshot,
+    state: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    if(this.authService.isLoggedIn())
+      return true;
+    else{
+      this.router.navigate(['login']);
+      return false;
+    }   
+  }
+}
+
+Test guard for canDeactivate : 
+export class TestGuardGuard implements CanDeactivate<CanComponentDeactivate> {
+  canDeactivate(component: CanComponentDeactivate, currentRoute: ActivatedRouteSnapshot, currentState: RouterStateSnapshot, nextState: RouterStateSnapshot): Observable<boolean | UrlTree> | Promise<boolean | UrlTree> | boolean | UrlTree {
+    return component.CanDeactivate? component.CanDeactivate() : true;
+  }
+  
+}
+Given an Angular service that interacts with an API, write a unit test for this service using Jasmine and Karma. How would you mock the HTTP requests to test both successful and error responses?  
+import { TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
+import { MyService } from './my-service.service'; 
+import { mockData } from './mock-data'; 
+
+describe('MyService', () => {
+  let service: MyService;
+  let httpMock: HttpTestingController;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientTestingModule],
+      providers: [MyService]
+    });
+
+    service = TestBed.inject(MyService);
+    httpMock = TestBed.inject(HttpTestingController);
+  });
+
+  it('should fetch data from the API', () => {
+    service.getData().subscribe(data => {
+      expect(data).toEqual(mockData);
+    });
+
+    const req = httpMock.expectOne('api/data');
+    expect(req.request.method).toBe('GET');
+    req.flush(mockData); 
+    httpMock.verify(); 
+  });
+
+  afterEach(() => {
+    httpMock.verify(); 
+  });
+});
+
+Angular 15 introduces extended esbuild support and optimized CLI tools. How do these optimizations affect the build process and performance of large-scale applications? What steps can you take to further optimize an Angular application for production, particularly in terms of bundle size and load time?  
+esbuild: Speeds up the build process and improves bundle performance.
+CLI Tools: Better support for modern features and optimized build outputs.
+Further Optimization: Minimize bundle size with Angular CLI configurations, use lazy loading, and employ techniques like tree-shaking and code splitting.
+Never submit passwords through Google Forms.
+This form was created inside Learners Point. Report Abuse
+Google Forms

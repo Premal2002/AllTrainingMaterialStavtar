@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Numerics;
+using System.Reactive.Linq;
 
 namespace VendorManagementAPI.Controllers
 {
@@ -28,7 +30,21 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
-        [HttpGet("/{vCode}")]
+        [HttpGet("getInvoiceByNumber/{iNumber}")]
+        public IActionResult GetInvoiceByNumber(int iNumber)
+        {
+            try
+            {
+                var i = invoice.GetInvoiceByNumber(iNumber);
+                return Ok(i);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("{vCode}")]
         public IActionResult GetAllInvoicesByVendorCode(string vCode)
         {
             try
@@ -42,7 +58,7 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
-        [HttpGet("/invoices/countByVendorId")]
+        [HttpGet("countByVendorId")]
         public IActionResult GetAllInvoicesCountByVendorId()
         {
             try
@@ -62,7 +78,8 @@ namespace VendorManagementAPI.Controllers
             try
             {
                 var msg = invoice.AddInvoice(invoiceREF);
-                return Created("", msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Created("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -70,13 +87,14 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
-        [HttpPut("/{iNumber}")]
+        [HttpPut("{iNumber}")]
         public IActionResult UpdateInvoice(int iNumber,[FromBody] Invoice invoiceREF)
         {
             try
             {
                 var msg = invoice.UpdateInvoice(iNumber,invoiceREF);
-                return Accepted("", msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Accepted("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -85,13 +103,14 @@ namespace VendorManagementAPI.Controllers
         }
 
 
-        [HttpDelete("/{iNumber}")]
+        [HttpDelete("{iNumber}")]
         public IActionResult DeleteInvoice(int iNumber)
         {
             try
             {
                 var msg = invoice.DeleteInvoice(iNumber);
-                return Accepted(msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Accepted(stringObservable);
             }
             catch (Exception ex)
             {
@@ -100,13 +119,14 @@ namespace VendorManagementAPI.Controllers
         }
 
         [HttpPost]
-        [Route("/invoices/export")]
+        [Route("export")]
         public IActionResult ExportInvoiceList()
         {
             try
             {
                 var msg = invoice.ExportInvoiceList();
-                return Ok(msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Ok(stringObservable);
             }
             catch (Exception ex)
             {

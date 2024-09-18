@@ -1,0 +1,60 @@
+<!-- app.component.html -->
+<div class="container-fluid p-0">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand m-auto fs-3" href="#">Vendor Management System</a>
+      <!-- Toggle button for small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content with Sidebar -->
+  <div class="row">
+    <!-- Sidebar -->
+    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+      <div class="position-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" >
+              <span data-feather="home"></span>
+              VMS
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="manageVendor/listVendor">
+              <span data-feather="file"></span>
+              Vendors
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="manageInvoice/listInvoice">
+              <span data-feather="shopping-cart"></span>
+              Invoices
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="manageCurrency/listCurrency">
+              <span data-feather="bar-chart-2"></span>
+              Currency
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h1 class="h2">Dashboard</h1>
+      </div>
+
+      <!-- Dynamic content goes here -->
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+    </main>
+  </div>
+</div>

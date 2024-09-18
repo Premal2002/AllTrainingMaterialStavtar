@@ -62,3 +62,5 @@ C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\Vendor
 C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.pdb
 C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.genruntimeconfig.cache
 C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\ref\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.sourcelink.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Reactive.dll

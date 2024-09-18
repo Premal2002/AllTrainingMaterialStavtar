@@ -12,6 +12,13 @@ builder.Services.AddScoped(typeof(VendorManagementAPI.Vendor));
 builder.Services.AddScoped(typeof(VendorManagementAPI.Invoice));
 builder.Services.AddScoped(typeof(VendorManagementAPI.Currency));
 
+builder.Services.AddCors(policy => policy.AddPolicy("AllowAll", rules =>
+{
+    rules.AllowAnyOrigin();
+    rules.AllowAnyMethod();
+    rules.AllowAnyHeader();
+}));
+
 
 var app = builder.Build();
 
@@ -21,6 +28,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

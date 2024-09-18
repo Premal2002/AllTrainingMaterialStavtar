@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Numerics;
+using System.Reactive.Linq;
 
 namespace VendorManagementAPI.Controllers
 {
@@ -28,13 +30,28 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
+        [HttpGet("getCurrencyByCode/{cCode}")]
+        public IActionResult GetCurrencyByCode(string cCode)
+        {
+            try
+            {
+                var v = currency.GetCurrencyByCode(cCode);
+                return Ok(v);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
         [HttpPost]
         public IActionResult AddCurrency([FromBody] Currency currencyREF)
         {
             try
             {
                 var msg = currency.AddCurrency(currencyREF);
-                return Created("", msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Created("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -42,13 +59,14 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
-        [HttpPut("editCurr/{cCode}")]
+        [HttpPut("{cCode}")]
         public IActionResult UpdateCurrency(string cCode,[FromBody] Currency currencyREF)
         {
             try
             {
                 var msg = currency.UpdateCurrency(cCode,currencyREF);
-                return Accepted("", msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Accepted("", stringObservable);
             }
             catch (Exception ex)
             {
@@ -57,13 +75,14 @@ namespace VendorManagementAPI.Controllers
         }
 
 
-        [HttpDelete("/{currencyCode}")]
+        [HttpDelete("{currencyCode}")]
         public IActionResult DeleteCurrency(string currencyCode)
         {
             try
             {
                 var msg = currency.DeleteCurrency(currencyCode);
-                return Accepted(msg);
+                IObservable<string> stringObservable = Observable.Return(msg);
+                return Accepted(stringObservable);
             }
             catch (Exception ex)
             {
