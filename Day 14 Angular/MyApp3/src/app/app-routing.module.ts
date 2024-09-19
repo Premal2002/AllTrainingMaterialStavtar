@@ -9,10 +9,12 @@ import { ChildBComponent } from './dashboard/child-b/child-b.component';
 import { AuthGuard } from './auth.guard';
 import { LoginComponent } from './login/login.component';
 import { TestGuardGuard } from './test-guard.guard';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   {path : '', redirectTo : "list", pathMatch : "full"},
   {path : 'list', component : ProductListComponent},
+  {path : 'register', component : RegisterComponent},
   {path : 'details/:id', component : SingleProductComponent},
   {path : 'login', component : LoginComponent},
   {path : 'addProduct', component : ProductFormComponent},

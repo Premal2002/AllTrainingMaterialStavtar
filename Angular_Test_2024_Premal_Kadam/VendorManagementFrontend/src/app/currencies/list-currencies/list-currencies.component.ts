@@ -33,8 +33,8 @@ export class ListCurrenciesComponent {
     if (confirm('Are you sure you want to delete this currency?')) {
       this.currencyService.deleteCurrency(currencyCode).subscribe(() => {
         alert("Currency deleted successfully.")
-        this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-          this.router.navigate(['manageCurrency/listCurrency']);
+        this.router.navigateByUrl('/failure', { skipLocationChange: true }).then(() => {
+          this.router.navigate(['Currency/manageCurrency/listCurrency']);
       });
         // this.loadCurrencies(); 
       },err => {

@@ -3,6 +3,7 @@ import { Vendor } from '../vendor.model';
 import { VendorService } from 'src/app/vendor.service';
 import { Router } from '@angular/router';
 import * as XLSX from 'xlsx';
+import { InvoiceService } from 'src/app/invoice.service';
 
 @Component({
   selector: 'app-list-vendors',
@@ -11,7 +12,7 @@ import * as XLSX from 'xlsx';
 })
 export class ListVendorsComponent {
   vendors : Vendor[] = [];
-  constructor(private vendorService : VendorService,private router : Router){}
+  constructor(private vendorService : VendorService,private router : Router,private invoiceService : InvoiceService){}
   ngOnInit(): void {
     this.getVendors();
   }
@@ -25,7 +26,7 @@ export class ListVendorsComponent {
   deleteVendor(vendorCode : string){
     this.vendorService.deleteVendor(vendorCode).subscribe(data => {
       alert("Vendor deleted successfully");
-      this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+      this.router.navigateByUrl('failure', { skipLocationChange: true }).then(() => {
         this.router.navigate(['manageVendor/listVendor']);
     });
     },err => {
@@ -53,4 +54,5 @@ export class ListVendorsComponent {
     XLSX.utils.book_append_sheet(wb, ws, 'Vendors');
     XLSX.writeFile(wb, 'vendors.xlsx');
   }
+
 }

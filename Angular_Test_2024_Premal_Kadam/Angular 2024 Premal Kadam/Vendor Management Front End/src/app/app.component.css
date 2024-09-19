@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    font-size: 0.875rem;
+  }
+  
+  .sidebar {
+    height: 100vh;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+  }
+  
+  .sidebar .nav-link {
+    color: #333;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    background-color: #e9ecef;
+  }
+  
+  .navbar {
+    border-bottom: 1px solid #e9ecef;
+  }
+  
+  /* Ensure the sidebar behaves properly on small screens */
+  @media (max-width: 767px) {
+    .sidebar {
+      height: auto;
+    }
+  }
+  

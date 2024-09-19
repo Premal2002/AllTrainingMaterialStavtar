@@ -23,6 +23,9 @@ export class RegisterComponent {
         gender : ['',Validators.required]
 
       });
+
+      console.log(forbiddenNameValidator('admin'));
+      
     }
 
     get form(){

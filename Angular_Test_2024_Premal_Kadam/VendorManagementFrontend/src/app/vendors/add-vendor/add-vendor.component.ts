@@ -31,7 +31,7 @@ export class AddVendorComponent {
         ],
         vendorPhoneNumber: [
           '', 
-          [Validators.required, Validators.pattern('^[0-9]{10}$')] // Contact number should be 10 digits
+          [Validators.required, Validators.pattern('^[7-9]{1}[0-9]{9}$')] // Contact number should be 10 digits
         ],
         vendorEmail: [
           '', 
@@ -61,13 +61,11 @@ export class AddVendorComponent {
       if(this.vendorForm.valid){
         this.vendorService.addVendor(this.vendorForm.value).subscribe(data => {
           alert("Vendor added successfully");
-          this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+          this.router.navigateByUrl('failure', { skipLocationChange: true }).then(() => {
             this.router.navigate(['manageVendor/listVendor']);
         });
         }, err => {
           alert(err.error);
-          console.log(err);
-          
         });
       }
     }
@@ -78,13 +76,13 @@ export class AddVendorComponent {
       if(this.vendorForm.valid){
         this.vendorService.updateVendor(this.vendorForm.value,this.vendorForm.get('vendorCode')?.value).subscribe(data => {
           alert("Vendor Edited successfully");
-          this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+          this.router.navigateByUrl('failure', { skipLocationChange: true }).then(() => {
             this.router.navigate(['manageVendor/listVendor']);
         });
           
         }, err => {
           alert(err.error);
-          console.log(err.error);
+          // console.log(err.error);
           
         });
         

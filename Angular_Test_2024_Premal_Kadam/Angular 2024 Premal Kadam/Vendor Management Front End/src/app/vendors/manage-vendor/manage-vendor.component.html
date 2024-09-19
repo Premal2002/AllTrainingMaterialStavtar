@@ -1,0 +1,34 @@
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Vendor</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+         
+          <a class="nav-link active" routerLink="listVendor">List_Vendor</a>
+          <a class="nav-link" routerLink="addVendor/0">Add_Vendor</a>
+          <!-- <a class="nav-link" href="#"></a> -->
+         
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Vendor Summary -->
+  <div class="row mt-3">
+    <div class="col-md-4">
+      <div class="card text-white bg-info mb-3">
+        <div class="card-body">
+          <h5 class="card-title">Total Vendors</h5>
+          <p class="card-text display-4"> {{totalVendors}} </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <router-outlet></router-outlet>
+
+   

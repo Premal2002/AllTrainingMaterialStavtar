@@ -3,6 +3,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CurrencyService } from 'src/app/currency.service';
 import { InvoiceService } from 'src/app/invoice.service';
+import { dueDateValidator } from 'src/app/myvalidator';
 import { VendorService } from 'src/app/vendor.service';
 
 @Component({
@@ -16,6 +17,7 @@ export class AddInvoiceComponent {
   submitted: boolean = false;
   vendors: any[] = [];
   currencies: any[] = [];
+  recDate : Date = new Date();
   // invoiceId: number | null = null;
 
   constructor(
@@ -42,6 +44,7 @@ export class AddInvoiceComponent {
       if(iNumber != 0){
         this.fromUpdate = true;
         this.invoiceService.getInvoiceByNumber(iNumber).subscribe(data => {
+          this.recDate = data.invoiceReceivedDate;
           this.invoiceForm.patchValue(data);
         },err => {
           alert(err.error);
@@ -53,23 +56,21 @@ export class AddInvoiceComponent {
     return this.invoiceForm.controls;
   }
 
-
   initializeForm(): void {
     this.invoiceForm = this.fb.group({
       invoiceNumber: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
       invoiceCurrencyId: ['', Validators.required],
       vendorId: ['', Validators.required],
       invoiceAmount: ['', [Validators.required, Validators.pattern('^[0-9]+(\\.[0-9]{1,2})?$')]],
-      invoiceDueDate: ['', [Validators.required]],
+      invoiceDueDate: ['', [Validators.required, dueDateValidator(this.recDate)]],
       isActive: [true]
     });
+
+    
+    
   }
 
-  loadInvoice(id: number): void {
-    // this.invoiceService.getInvoice(id).subscribe(data => {
-    //   this.invoiceForm.patchValue(data);
-    // });
-  }
+
 
 
   handleSubmit(): void {
@@ -81,13 +82,14 @@ export class AddInvoiceComponent {
     this.invoiceService.addInvoice(this.invoiceForm.value).subscribe(
     () =>  {
       alert("Invoice added successfully");
-      this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-        this.router.navigate(['manageInvoice/listInvoice']);
+      this.router.navigateByUrl('/failure', { skipLocationChange: true }).then(() => {
+        this.router.navigate(['Invoice/manageInvoice/listInvoice']);
     });
   },
       error => {
         alert(error.error);
-        console.error('Error adding invoice', error)}
+        // console.error('Error adding invoice', error)
+      }
     );
   }
 
@@ -97,13 +99,13 @@ export class AddInvoiceComponent {
       if(this.invoiceForm.valid){
         this.invoiceService.updateInvoice(this.invoiceForm.value,this.invoiceForm.get('invoiceNumber')?.value).subscribe(data => {
           alert("Invoice Edited successfully");
-          this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-            this.router.navigate(['manageInvoice/listInvoice']);
+          this.router.navigateByUrl('/failure', { skipLocationChange: true }).then(() => {
+            this.router.navigate(['Invoice/manageInvoice/listInvoice']);
         });
           
         }, err => {
           alert(err.error);
-          console.log(err.error);
+          // console.log(err.error);
         });
         
       }

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Currency } from 'src/app/currencies/currency.model';
 import { CurrencyService } from 'src/app/currency.service';
 import { InvoiceService } from 'src/app/invoice.service';
@@ -19,7 +19,7 @@ export class ListInvoicesComponent {
   vendors: Vendor[] = [];
   currencies: Currency[] = [];
 
-  constructor(private invoiceService: InvoiceService,private router : Router,private vendorService: VendorService,private currencyService: CurrencyService) { }
+  constructor(private invoiceService: InvoiceService,private router : Router,private vendorService: VendorService,private currencyService: CurrencyService,private route : ActivatedRoute) { }
 
   ngOnInit(): void {
     this.getInvoices();
@@ -61,7 +61,7 @@ export class ListInvoicesComponent {
       this.invoiceService.deleteInvoice(invoiceNumber).subscribe(() => {
         alert('Invoice deleted successfully');
         this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-          this.router.navigate(['manageInvoice/listInvoice']);
+          this.router.navigate(['Invoice/manageInvoice/listInvoice']);
       });
         // this.getInvoices();
       }, (error) => {
@@ -73,10 +73,10 @@ export class ListInvoicesComponent {
 
   updateInvoice(invoiceNumber: number) {
     // Redirect to update invoice form
-    this.router.navigate([`manageInvoice/addInvoice/${invoiceNumber}`]);
+    this.router.navigate([`Invoice/manageInvoice/addInvoice/${invoiceNumber}`]);
   }
 
-  getCurrencyName(currencyId: number): string {
+  getCurrencyCode(currencyId: number): string {
     let cCode : string = "null";
     this.currencies.forEach(element => {
       if(element.currencyId == currencyId){

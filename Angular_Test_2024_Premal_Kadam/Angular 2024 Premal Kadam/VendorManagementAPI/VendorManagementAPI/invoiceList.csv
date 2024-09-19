@@ -1,0 +1,7 @@
+InvoiceId, Invoice Number, Invoice Currency Id, Vendor Id, Vendor Name, Invoice Amount,Invoice Received Date, Invoice Due Date, Is Invoice Active
+1,12345678,1,1,Premal,500,18-09-2024 17:23:00,12-09-2024 00:00:00,True
+2,12345679,4,2,Sandip,750,18-09-2024 17:23:00,15-09-2024 00:00:00,True
+3,12345680,2,3,Saurabh,1000,18-09-2024 17:23:00,18-09-2024 00:00:00,True
+4,12345681,1,1,Premal,1250,18-09-2024 17:23:00,20-09-2024 00:00:00,True
+5,12345682,5,2,Sandip,1500,18-09-2024 17:23:00,22-09-2024 00:00:00,True
+6,75,1,2,Sandip,7575,18-09-2024 17:25:52,20-09-2024 00:00:00,True

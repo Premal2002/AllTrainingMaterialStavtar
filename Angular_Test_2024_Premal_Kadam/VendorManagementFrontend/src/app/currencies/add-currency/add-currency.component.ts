@@ -41,12 +41,12 @@ export class AddCurrencyComponent {
     if(this.currencyForm.valid){
         this.currencyService.addCurrency(this.currencyForm.value).subscribe(data => {
           alert("Currency added successfully");
-          this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-            this.router.navigate(['manageCurrency/listCurrency']);
+          this.router.navigateByUrl('/failure', { skipLocationChange: true }).then(() => {
+            this.router.navigate(['Currency/manageCurrency/listCurrency']);
         });
         }, err => {
           alert(err.error);
-          console.log(err);
+          // console.log(err);
         });
       }
   }
@@ -56,13 +56,13 @@ export class AddCurrencyComponent {
     if(this.currencyForm.valid){
       this.currencyService.updateCurrency(this.currencyForm.value,this.currencyForm.get('currencyCode')?.value).subscribe(data => {
         alert("Currency Edited successfully");
-        this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
-          this.router.navigate(['manageCurrency/listCurrency']);
+        this.router.navigateByUrl('/failure', { skipLocationChange: true }).then(() => {
+          this.router.navigate(['Currency/manageCurrency/listCurrency']);
       });
         
       }, err => {
         alert(err.error);
-        console.log(err.error);
+        // console.log(err.error);
         
       });
       

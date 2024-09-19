@@ -14,27 +14,22 @@ import { ListVendorsComponent } from './vendors/list-vendors/list-vendors.compon
 import { ReactiveFormsModule } from '@angular/forms';
 import { ListInvoicesComponent } from './invoices/list-invoices/list-invoices.component';
 import { ListCurrenciesComponent } from './currencies/list-currencies/list-currencies.component';
+import { VendorModule } from './vendors/vendor/vendor.module';
+import { InvoiceModule } from './invoices/invoice/invoice.module';
+import { CurrencyModule } from './currencies/currency/currency.module';
+import { FailureComponent } from './failure/failure.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ManageVendorComponent,
-    AddVendorComponent,
-    ManageInvoiceComponent,
-    AddInvoiceComponent,
-    ManageCurrencyComponent,
-    AddCurrencyComponent,
-    ListVendorsComponent,
-    ListInvoicesComponent,
-    ListCurrenciesComponent,
-    
+    FailureComponent, 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

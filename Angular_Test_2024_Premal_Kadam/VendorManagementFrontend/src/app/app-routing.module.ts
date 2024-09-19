@@ -9,21 +9,15 @@ import { ListInvoicesComponent } from './invoices/list-invoices/list-invoices.co
 import { ListCurrenciesComponent } from './currencies/list-currencies/list-currencies.component';
 import { AddCurrencyComponent } from './currencies/add-currency/add-currency.component';
 import { ManageCurrencyComponent } from './currencies/manage-currency/manage-currency.component';
+import { AppComponent } from './app.component';
+import { FailureComponent } from './failure/failure.component';
 
 const routes: Routes = [
-  {path : '', redirectTo : "manageVendor/listVendor", pathMatch : "full"},
-  {path : 'manageVendor', component : ManageVendorComponent,children : [
-    {path : 'addVendor/:vCode', component : AddVendorComponent},
-    {path : 'listVendor', component : ListVendorsComponent},
-  ]},
-  {path : 'manageInvoice', component : ManageInvoiceComponent,children : [
-    {path : 'addInvoice/:iNumber', component : AddInvoiceComponent},
-    {path : 'listInvoice', component : ListInvoicesComponent},
-  ]},
-  {path : 'manageCurrency', component : ManageCurrencyComponent,children : [
-    {path : 'addCurrency/:cCode', component : AddCurrencyComponent},
-    {path : 'listCurrency', component : ListCurrenciesComponent},
-  ]}
+  {path : '', loadChildren: () => import('./vendors/vendor/vendor.module').then(m => m.VendorModule)},
+  {path : 'Invoice',  loadChildren:() => import('./invoices/invoice/invoice.module').then(m => m.InvoiceModule)},
+  {path : 'Currency',  loadChildren:() => import('./currencies/currency/currency.module').then(m => m.CurrencyModule)},
+  {path : 'failure', component : FailureComponent}
+ 
 ];
 
 @NgModule({
