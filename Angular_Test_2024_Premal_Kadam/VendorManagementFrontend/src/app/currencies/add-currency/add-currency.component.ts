@@ -18,7 +18,7 @@ export class AddCurrencyComponent {
   ngOnInit(): void {
     this.currencyForm = this.formBuilder.group({
       currencyCode: ['', [Validators.required, Validators.pattern('^[A-Z]{3}$')]], // ISO code pattern
-      currencyName: ['', [Validators.required, Validators.minLength(3)]]
+      currencyName: ['', [Validators.required, Validators.minLength(4)]]
     });
 
     const cCode = this.route.snapshot.paramMap.get('cCode');
@@ -46,7 +46,7 @@ export class AddCurrencyComponent {
         });
         }, err => {
           alert(err.error);
-          // console.log(err);
+          console.log(err);
         });
       }
   }

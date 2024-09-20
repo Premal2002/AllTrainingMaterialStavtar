@@ -7,44 +7,16 @@
       "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\orderproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\ordermanagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\ordermanagement.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\migrations\\20240903082919_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\migrations\\20240903082919_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\day 8\\ordermanagement\\ordermanagement\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56146678-B637-43F4-8539-E5570C280D98}|OrderManagement\\OrderManagement.csproj|solutionrelative:ordermanagement\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,46 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "OrderManagement\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T10:45:58.438Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20240903082919_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Migrations\\20240903082919_InitialCreate.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Migrations\\20240903082919_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Migrations\\20240903082919_InitialCreate.cs",
-              "RelativeToolTip": "OrderManagement\\Migrations\\20240903082919_InitialCreate.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T08:29:19.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Program.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Program.cs",
-              "RelativeToolTip": "OrderManagement\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T06:30:13.296Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -102,22 +36,35 @@
               "RelativeDocumentMoniker": "OrderManagement\\appsettings.json",
               "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\appsettings.json",
               "RelativeToolTip": "OrderManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-03T06:22:26.833Z",
+              "WhenOpened": "2024-09-20T05:55:32.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderManagement.http",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\OrderManagement.http",
-              "RelativeDocumentMoniker": "OrderManagement\\OrderManagement.http",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\OrderManagement.http",
-              "RelativeToolTip": "OrderManagement\\OrderManagement.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-09-03T05:42:10.693Z",
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "OrderManagement\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:53:46.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Program.cs",
+              "RelativeDocumentMoniker": "OrderManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Program.cs",
+              "RelativeToolTip": "OrderManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T05:52:33.483Z",
               "EditorCaption": ""
             },
             {
@@ -126,78 +73,16 @@
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "OrderManagement\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "OrderManagement\\Models\\AppDbContext.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\AppDbContext.cs*",
+              "RelativeToolTip": "OrderManagement\\Models\\AppDbContext.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA8AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T06:07:44.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderProduct.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\OrderProduct.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Models\\OrderProduct.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\OrderProduct.cs",
-              "RelativeToolTip": "OrderManagement\\Models\\OrderProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:52:32.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Product.cs",
-              "RelativeToolTip": "OrderManagement\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:51:32.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Order.cs",
-              "RelativeToolTip": "OrderManagement\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:47:06.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Customer.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Models\\Customer.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Customer.cs",
-              "RelativeToolTip": "OrderManagement\\Models\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:42:51.282Z",
+              "WhenOpened": "2024-09-20T05:50:42.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Invoice.cs",
-              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Invoice.cs",
-              "RelativeDocumentMoniker": "OrderManagement\\Models\\Invoice.cs",
-              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Day 8\\OrderManagement\\OrderManagement\\Models\\Invoice.cs",
-              "RelativeToolTip": "OrderManagement\\Models\\Invoice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T05:50:16.265Z"
             }
           ]
         }

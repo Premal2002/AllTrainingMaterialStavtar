@@ -44,7 +44,7 @@ export class ListCurrenciesComponent {
   }
 
   editCurrency(currencyCode: string): void {
-    this.router.navigate([`manageCurrency/addCurrency/${currencyCode}`]);
+    this.router.navigate([`Currency/manageCurrency/addCurrency/${currencyCode}`]);
   }
 
   exportCurrency(){

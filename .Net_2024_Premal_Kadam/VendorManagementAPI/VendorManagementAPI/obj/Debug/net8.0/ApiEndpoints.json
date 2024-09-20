@@ -39,7 +39,7 @@
         "IsRequired": true
       },
       {
-        "Name": "currencyREF",
+        "Name": "newcurrencyREF",
         "Type": "VendorManagementAPI.Currency",
         "IsRequired": true
       }
@@ -143,22 +143,6 @@
   },
   {
     "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
-    "Method": "GetAllInvoicesByVendorCode",
-    "RelativePath": "api/Invoice/{vCode}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "vCode",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
     "Method": "GetAllInvoicesCountByVendorId",
     "RelativePath": "api/Invoice/countByVendorId",
     "HttpMethod": "GET",
@@ -169,12 +153,34 @@
   },
   {
     "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
-    "Method": "ExportInvoiceList",
-    "RelativePath": "api/Invoice/export",
-    "HttpMethod": "POST",
+    "Method": "GetAllInvoicesByCurrencyCode",
+    "RelativePath": "api/Invoice/getByCurrency/{cCode}",
+    "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "cCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "GetAllInvoicesByVendorCode",
+    "RelativePath": "api/Invoice/getByVendor/{vCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -254,16 +260,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
-    "Method": "ExportVendorList",
-    "RelativePath": "api/Vendor/export",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
     "ReturnTypes": []
   },
   {

@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Numerics;
 using System.Reactive.Linq;
+using System.Text.Json;
 
 namespace VendorManagementAPI.Controllers
 {
@@ -9,11 +11,12 @@ namespace VendorManagementAPI.Controllers
     [ApiController]
     public class InvoiceController : ControllerBase
     {
-        private readonly Invoice invoice;
+        private readonly VendorManagementContext _context;
 
-        public InvoiceController(Invoice invoiceREF)
+
+        public InvoiceController(VendorManagementContext context)
         {
-            this.invoice = invoiceREF;
+            this._context = context;
         }
 
         [HttpGet]
@@ -21,8 +24,8 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var iList = invoice.GetAllInvoices();
-                return Ok(iList);
+                var vList = _context.Invoices.ToList();
+                return Ok(vList);
             }
             catch (Exception ex)
             {
@@ -35,8 +38,11 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var i = invoice.GetInvoiceByNumber(iNumber);
-                return Ok(i);
+                Invoice v = _context.Invoices.Where(c => c.InvoiceNumber == iNumber).SingleOrDefault();
+                if (v != null)
+                    return Ok(v);
+                else
+                    throw new Exception("Invoice with code " + iNumber + " is not present");
             }
             catch (Exception ex)
             {
@@ -44,12 +50,30 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
-        [HttpGet("{vCode}")]
+        [HttpGet("getByVendor/{vCode}")]
         public IActionResult GetAllInvoicesByVendorCode(string vCode)
         {
             try
             {
-                var iList = invoice.GetInvoicesByVendorCode(vCode);
+                //var customList = JsonSerializer.Deserialize<List<Invoice>>(list);
+                int vId = _context.Vendors.Where(v => v.VendorCode == vCode).SingleOrDefault().VendorId;
+                var iList = _context.Invoices.Where(i => i.VendorId == vId);
+                return Ok(iList);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        [HttpGet("getByCurrency/{cCode}")]
+        public IActionResult GetAllInvoicesByCurrencyCode(string cCode)
+        {
+            try
+            {
+                //var customList = JsonSerializer.Deserialize<List<Invoice>>(list);
+                int cId = _context.Currencies.Where(v => v.CurrencyCode == cCode).SingleOrDefault().CurrencyId;
+                var iList = _context.Invoices.Where(i => i.InvoiceCurrencyId == cId);
                 return Ok(iList);
             }
             catch (Exception ex)
@@ -63,8 +87,8 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var iList = invoice.GetInvoiceCountByVendor();
-                return Ok(iList);
+                var list = _context.Invoices.ToList().GroupBy(i => i.VendorId).Select(g => new { VendorId = g.Key, Count = g.Count() });
+                return Ok(list);
             }
             catch (Exception ex)
             {
@@ -77,9 +101,31 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var msg = invoice.AddInvoice(invoiceREF);
-                IObservable<string> stringObservable = Observable.Return(msg);
-                return Created("", stringObservable);
+                if (_context.Invoices.Any(c => c.InvoiceNumber == invoiceREF.InvoiceNumber))
+                {
+                    return BadRequest("There is already invoice with same number.");
+                }
+
+                if(_context.Vendors.Any(v => v.VendorId == invoiceREF.VendorId))
+                {
+                    if(_context.Currencies.Any(c => c.CurrencyId == invoiceREF.InvoiceCurrencyId))
+                    {
+                        invoiceREF.InvoiceReceivedDate = DateTime.Now;
+                        _context.Invoices.Add(invoiceREF);
+                        _context.SaveChanges();
+                        IObservable<string> stringObservable = Observable.Return("Invoice Added successfully");
+                        return Created("", stringObservable);
+                    }
+                    else
+                    {
+                        return NotFound("Currency not present");
+                    }
+                }
+                else
+                {
+                    return NotFound("Vendor not present");
+                }
+               
             }
             catch (Exception ex)
             {
@@ -92,8 +138,22 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var msg = invoice.UpdateInvoice(iNumber,invoiceREF);
-                IObservable<string> stringObservable = Observable.Return(msg);
+                Invoice invoice = _context.Invoices.Where(c => c.InvoiceNumber == iNumber).SingleOrDefault();
+
+                if (invoice == null)
+                {
+                    return NotFound("Vendor not found");
+                }
+
+                invoice.InvoiceNumber = invoiceREF.InvoiceNumber;
+                invoice.InvoiceCurrencyId = invoiceREF.InvoiceCurrencyId;
+                invoice.VendorId = invoiceREF.VendorId;
+                invoice.InvoiceAmount = invoiceREF.InvoiceAmount;
+                invoice.InvoiceDueDate = invoiceREF.InvoiceDueDate;
+                invoice.IsActive = invoiceREF.IsActive;
+                _context.Entry(invoice).State = EntityState.Modified;
+                _context.SaveChanges();
+                IObservable<string> stringObservable = Observable.Return("Invoice updated");
                 return Accepted("", stringObservable);
             }
             catch (Exception ex)
@@ -106,33 +166,33 @@ namespace VendorManagementAPI.Controllers
         [HttpDelete("{iNumber}")]
         public IActionResult DeleteInvoice(int iNumber)
         {
-            try
+            Invoice invoiceREF = _context.Invoices.Where(c => c.InvoiceNumber == iNumber).SingleOrDefault();
+            if (invoiceREF == null)
             {
-                var msg = invoice.DeleteInvoice(iNumber);
-                IObservable<string> stringObservable = Observable.Return(msg);
-                return Accepted(stringObservable);
+                return NotFound("invoice not found");
             }
-            catch (Exception ex)
-            {
-                return NotFound(ex.Message);
-            }
+            
+            _context.Invoices.Remove(invoiceREF);
+            _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        [HttpPost]
-        [Route("export")]
-        public IActionResult ExportInvoiceList()
-        {
-            try
-            {
-                var msg = invoice.ExportInvoiceList();
-                IObservable<string> stringObservable = Observable.Return(msg);
-                return Ok(stringObservable);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        //[HttpPost]
+        //[Route("export")]
+        //public IActionResult ExportInvoiceList()
+        //{
+        //    try
+        //    {
+        //        var msg = invoice.ExportInvoiceList();
+        //        IObservable<string> stringObservable = Observable.Return(msg);
+        //        return Ok(stringObservable);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
 
     
 }

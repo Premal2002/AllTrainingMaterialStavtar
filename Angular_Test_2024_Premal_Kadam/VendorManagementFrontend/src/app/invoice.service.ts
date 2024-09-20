@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Invoice } from './invoices/invoice.model';
@@ -14,6 +14,16 @@ export class InvoiceService {
 
   getInvoices(): Observable<Invoice[]> {
     return this.http.get<Invoice[]>(this.apiUrl);
+  }
+
+  getInvoicesByVendor(vCode : string,invoices : Invoice[]): Observable<Invoice[]> {
+    // const params = new HttpParams().set('myList', JSON.stringify(invoices));
+    return this.http.get<Invoice[]>(this.apiUrl+"/getByVendor/"+vCode);
+  }
+
+  getInvoicesByCurrency(cCode : string,invoices : Invoice[]): Observable<Invoice[]> {
+    // const params = new HttpParams().set('myList', JSON.stringify(invoices));
+    return this.http.get<Invoice[]>(this.apiUrl+"/getByCurrency/"+cCode);
   }
 
   getInvoiceByNumber(iNumber : number | null): Observable<Invoice> {

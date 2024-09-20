@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Numerics;
 using System.Reactive.Linq;
 
@@ -9,11 +10,12 @@ namespace VendorManagementAPI.Controllers
     [ApiController]
     public class CurrencyController : ControllerBase
     {
-        private readonly Currency currency;
 
-        public CurrencyController(Currency currencyREF)
+        private readonly VendorManagementContext _context;
+
+        public CurrencyController(Currency currencyREF, VendorManagementContext context)
         {
-            this.currency = currencyREF;
+            this._context = context;
         }
 
         [HttpGet]
@@ -21,7 +23,7 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var cList = currency.GetAllCurrency();
+                var cList = _context.Currencies.ToList();
                 return Ok(cList);
             }
             catch (Exception ex)
@@ -35,8 +37,11 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var v = currency.GetCurrencyByCode(cCode);
-                return Ok(v);
+                Currency v = _context.Currencies.Where(c => c.CurrencyCode == cCode).SingleOrDefault();
+                if (v != null)
+                    return Ok(v);
+                else
+                    throw new Exception("Currency with code " + cCode + " is not present");
             }
             catch (Exception ex)
             {
@@ -49,8 +54,13 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var msg = currency.AddCurrency(currencyREF);
-                IObservable<string> stringObservable = Observable.Return(msg);
+                if(_context.Currencies.Any(c => c.CurrencyCode == currencyREF.CurrencyCode))
+                {
+                    return BadRequest("There is already currency with same code.");
+                }
+                _context.Currencies.Add(currencyREF);
+                _context.SaveChanges();
+                IObservable<string> stringObservable = Observable.Return("Currency Added successfully");
                 return Created("", stringObservable);
             }
             catch (Exception ex)
@@ -60,12 +70,22 @@ namespace VendorManagementAPI.Controllers
         }
 
         [HttpPut("{cCode}")]
-        public IActionResult UpdateCurrency(string cCode,[FromBody] Currency currencyREF)
+        public IActionResult UpdateCurrency(string cCode,[FromBody] Currency newcurrencyREF)
         {
             try
             {
-                var msg = currency.UpdateCurrency(cCode,currencyREF);
-                IObservable<string> stringObservable = Observable.Return(msg);
+                Currency currencyREF = _context.Currencies.Where(c => c.CurrencyCode == cCode).SingleOrDefault();
+
+                if (currencyREF == null)
+                {
+                    return NotFound("Currency not found"); 
+                }
+
+                currencyREF.CurrencyName = newcurrencyREF.CurrencyName;
+                currencyREF.CurrencyCode = newcurrencyREF.CurrencyCode;
+                _context.Entry(currencyREF).State = EntityState.Modified;
+                _context.SaveChanges();
+                IObservable<string> stringObservable = Observable.Return("currency upadated");
                 return Accepted("", stringObservable);
             }
             catch (Exception ex)
@@ -78,16 +98,19 @@ namespace VendorManagementAPI.Controllers
         [HttpDelete("{currencyCode}")]
         public IActionResult DeleteCurrency(string currencyCode)
         {
-            try
+            Currency currencyREF = _context.Currencies.Where(c => c.CurrencyCode == currencyCode).SingleOrDefault();
+            if (currencyREF == null)
             {
-                var msg = currency.DeleteCurrency(currencyCode);
-                IObservable<string> stringObservable = Observable.Return(msg);
-                return Accepted(stringObservable);
-            }
-            catch (Exception ex)
+                return NotFound("Currency not found");
+            }else if(_context.Invoices.Any(i => i.InvoiceCurrencyId == currencyREF.CurrencyId))
             {
-                return NotFound(ex.Message);
+                return BadRequest("Currency is linked with the invoices, can't delete it.");
             }
+
+            _context.Currencies.Remove(currencyREF);
+            _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
     }

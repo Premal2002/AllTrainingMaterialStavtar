@@ -97,16 +97,42 @@ export class ListInvoicesComponent {
   }
 
   onVendorChange(event : Event){
-    const selectedVendorId = Number ((event.target as HTMLSelectElement).value);
-    if (selectedVendorId) {
-      this.invoiceService.getInvoices().subscribe((data: Invoice[]) => {
-        this.invoices = data.filter(invoice => invoice.vendorId == selectedVendorId);
-      }, (error) => {
-        alert(error.error);
-        console.error("Error fetching invoices", error);
+    const selectedVendorCode = (event.target as HTMLSelectElement).value;
+    if (selectedVendorCode) {
+      // this.invoiceService.getInvoices().subscribe((data: Invoice[]) => {
+      //   this.invoices = data.filter(invoice => invoice.vendorId == selectedVendorId);
+      // }, (error) => {
+      //   alert(error.error);
+      //   console.error("Error fetching invoices", error);
+      // });
+      this.invoiceService.getInvoicesByVendor(selectedVendorCode,this.invoices).subscribe(data => {
+        this.invoices = data;
       });
     }else{
       this.getInvoices();
     }
+  }
+
+  onCurrencyChange(event : Event){
+    const selectedCurrencyCode = (event.target as HTMLSelectElement).value;
+    if (selectedCurrencyCode) {
+      // this.invoiceService.getInvoices().subscribe((data: Invoice[]) => {
+      //   this.invoices = data.filter(invoice => invoice.vendorId == selectedVendorId);
+      // }, (error) => {
+      //   alert(error.error);
+      //   console.error("Error fetching invoices", error);
+      // });
+      this.invoiceService.getInvoicesByCurrency(selectedCurrencyCode,this.invoices).subscribe(data => {
+        this.invoices = data;
+      });
+    }else{
+      this.getInvoices();
+    }
+  }
+
+  backToInvoiceList(){
+    this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
+      this.router.navigate(['Invoice/manageInvoice/listInvoice']);
+  });
   }
 }

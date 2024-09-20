@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Reactive.Linq;
 
 
@@ -9,11 +10,11 @@ namespace VendorManagementAPI.Controllers
     [ApiController]
     public class VendorController : ControllerBase
     {
-        private readonly Vendor vendor;
+        private readonly VendorManagementContext _context;
 
-        public VendorController(Vendor vendorREF)
+        public VendorController(VendorManagementContext Context)
         {
-            this.vendor = vendorREF;
+            this._context = Context;
         }
 
         [HttpGet]
@@ -21,7 +22,7 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var vList = vendor.GetAllVendors();
+                var vList = _context.Vendors.ToList();
                 return Ok(vList);
             }
             catch (Exception ex)
@@ -35,8 +36,11 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var v = vendor.GetVendorByCode(vCode);
-                return Ok(v);
+                Vendor v = _context.Vendors.Where(c => c.VendorCode == vCode).SingleOrDefault();
+                if (v != null)
+                    return Ok(v);
+                else
+                    throw new Exception("Vendor with code " + vCode + " is not present");
             }
             catch (Exception ex)
             {
@@ -51,8 +55,14 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var msg = vendor.AddVendor(vendorREF);
-                IObservable<string> stringObservable = Observable.Return(msg);
+                if (_context.Vendors.Any(c => c.VendorCode == vendorREF.VendorCode))
+                {
+                    return BadRequest("There is already vendor with same code.");
+                }
+                vendorREF.VendorCreatedOn = DateTime.Now;
+                _context.Vendors.Add(vendorREF);
+                _context.SaveChanges();
+                IObservable<string> stringObservable = Observable.Return("Vendor Added successfully");
                 return Created("", stringObservable);
             }
             catch (Exception ex)
@@ -66,8 +76,21 @@ namespace VendorManagementAPI.Controllers
         {
             try
             {
-                var msg = vendor.UpdateVendor(vCode,vendorREF);
-                IObservable<string> stringObservable = Observable.Return(msg);
+                Vendor vendor = _context.Vendors.Where(c => c.VendorCode == vCode).SingleOrDefault();
+
+                if (vendor == null)
+                {
+                    return NotFound("Vendor not found");
+                }
+
+                vendor.VendorCode = vendorREF.VendorCode;
+                vendor.VendorLongName = vendorREF.VendorLongName;
+                vendor.VendorEmail = vendorREF.VendorEmail;
+                vendor.IsActive = vendorREF.IsActive;
+                vendor.VendorPhoneNumber = vendorREF.VendorPhoneNumber;
+                _context.Entry(vendor).State = EntityState.Modified;
+                _context.SaveChanges();
+                IObservable<string> stringObservable = Observable.Return("Vendor updated");
                 return Accepted("", stringObservable);
             }
             catch (Exception ex)
@@ -80,33 +103,37 @@ namespace VendorManagementAPI.Controllers
         [HttpDelete("{vendorCode}")]
         public IActionResult DeleteVendor(string vendorCode)
         {
-            try
+            Vendor vendorREF = _context.Vendors.Where(c => c.VendorCode == vendorCode).SingleOrDefault();
+            if (vendorREF == null)
             {
-                var msg = vendor.DeleteVendor(vendorCode);
-                IObservable<string> stringObservable = Observable.Return(msg);
-                return Accepted("", stringObservable);
+                return NotFound("vendor not found");
             }
-            catch (Exception ex)
+            else if (_context.Invoices.Any(i => i.VendorId == vendorREF.VendorId))
             {
-                return NotFound(ex.Message);
+                return BadRequest("Vendor still has invoices pending!!!.");
             }
+
+            _context.Vendors.Remove(vendorREF);
+            _context.SaveChangesAsync();
+
+            return NoContent();
         }
 
-        [HttpPost]
-        [Route("export")]
-        public IActionResult ExportVendorList()
-        {
-            try
-            {
-                var msg = vendor.ExportVendorList();
-                IObservable<string> stringObservable = Observable.Return(msg);
-                return Ok(stringObservable);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+        //[HttpPost]
+        //[Route("export")]
+        //public IActionResult ExportVendorList()
+        //{
+        //    try
+        //    {
+        //        var msg = vendor.ExportVendorList();
+        //        IObservable<string> stringObservable = Observable.Return(msg);
+        //        return Ok(stringObservable);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        return BadRequest(ex.Message);
+        //    }
+        //}
 
     }
 }

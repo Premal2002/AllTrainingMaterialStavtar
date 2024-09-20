@@ -8,8 +8,17 @@
             <label for="vendorFilter">Filter by Vendor</label>
             <select id="vendorFilter" class="form-select" (change)="onVendorChange($event)">
               <option value="">Select Vendor</option>
-              <option *ngFor="let vendor of vendors" [value]="vendor.vendorId">
+              <option *ngFor="let vendor of vendors" [value]="vendor.vendorCode">
                 {{vendor.vendorLongName}}
+              </option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="vendorFilter">Filter by Currency</label>
+            <select id="vendorFilter" class="form-select" (change)="onCurrencyChange($event)">
+              <option value="">Select Currency</option>
+              <option *ngFor="let currency of currencies" [value]="currency.currencyCode">
+                {{currency.currencyCode}}
               </option>
             </select>
           </div>
@@ -57,5 +66,6 @@
   <div *ngIf="invoices.length == 0" class="d-flex flex-column">
     <img src="../../../assets/empty-folder.png" class="img-fluid w-25 m-auto" alt="...">
     <h2 class="text-center">No Invoices Found...</h2>
+    <button class="btn btn-warning w-25 m-auto" (click)="backToInvoiceList()">Back to Invoices</button>
   </div>
   
