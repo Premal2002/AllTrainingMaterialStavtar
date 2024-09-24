@@ -16,14 +16,17 @@ export class InvoiceService {
     return this.http.get<Invoice[]>(this.apiUrl);
   }
 
-  getInvoicesByVendor(vCode : string,invoices : Invoice[]): Observable<Invoice[]> {
-    // const params = new HttpParams().set('myList', JSON.stringify(invoices));
-    return this.http.get<Invoice[]>(this.apiUrl+"/getByVendor/"+vCode);
-  }
+  // getInvoicesByVendor(vCode : string): Observable<Invoice[]> {
+  //   return this.http.get<Invoice[]>(this.apiUrl+"/getByVendor/"+vCode);
+  // }
 
-  getInvoicesByCurrency(cCode : string,invoices : Invoice[]): Observable<Invoice[]> {
-    // const params = new HttpParams().set('myList', JSON.stringify(invoices));
-    return this.http.get<Invoice[]>(this.apiUrl+"/getByCurrency/"+cCode);
+  // getInvoicesByCurrency(cCode : string): Observable<Invoice[]> {
+  //   return this.http.get<Invoice[]>(this.apiUrl+"/getByCurrency/"+cCode);
+  // }
+
+  getFilteredInvoices(cId : number,vId : number): Observable<Invoice[]> {
+    
+    return this.http.get<Invoice[]>(`${this.apiUrl}/getFilteredInvoices/${cId}/${vId}`);
   }
 
   getInvoiceByNumber(iNumber : number | null): Observable<Invoice> {

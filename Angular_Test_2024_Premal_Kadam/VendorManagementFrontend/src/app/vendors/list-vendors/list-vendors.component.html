@@ -25,7 +25,7 @@
                 <td>{{v.vendorLongName}}</td>
                 <td>{{v.vendorPhoneNumber}}</td>
                 <td>{{v.vendorEmail}}</td>
-                <td>{{v.vendorCreatedOn | date}}</td>
+                <td>{{v.vendorCreatedOn | date : 'dd-mm-yyyy'}}</td>
                 <td>{{v.isActive}}</td>
                 <td><button class="btn btn-danger" (click)="deleteVendor(v.vendorCode)">Delete</button></td>
                 <td><button class="btn btn-success" (click)="updateVendor(v.vendorCode)">Update</button></td>

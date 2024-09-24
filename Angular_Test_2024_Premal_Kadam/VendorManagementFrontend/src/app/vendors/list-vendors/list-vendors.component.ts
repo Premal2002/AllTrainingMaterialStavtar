@@ -24,15 +24,18 @@ export class ListVendorsComponent {
   }
 
   deleteVendor(vendorCode : string){
-    this.vendorService.deleteVendor(vendorCode).subscribe(data => {
-      alert("Vendor deleted successfully");
-      this.router.navigateByUrl('failure', { skipLocationChange: true }).then(() => {
-        this.router.navigate(['manageVendor/listVendor']);
-    });
-    },err => {
-      alert(err.error);
-    });
-   
+
+    if(confirm("Do you really want to delete this vendor?"))
+    {
+      this.vendorService.deleteVendor(vendorCode).subscribe(data => {
+        alert("Vendor deleted successfully");
+        this.router.navigateByUrl('failure', { skipLocationChange: true }).then(() => {
+          this.router.navigate(['manageVendor/listVendor']);
+      });
+      },err => {
+        alert(err.error);
+      });
+    }
   }
 
 

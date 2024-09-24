@@ -18,12 +18,15 @@ export class ListInvoicesComponent {
   invoices: Invoice[] = [];
   vendors: Vendor[] = [];
   currencies: Currency[] = [];
+  vFilter : number = 0;
+  cFilter : number = 0;
 
   constructor(private invoiceService: InvoiceService,private router : Router,private vendorService: VendorService,private currencyService: CurrencyService,private route : ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.getInvoices();
-
+    // this.getInvoices();
+    this.onChange();
+    
      // Fetch vendor and currency data
      this.vendorService.getVendors().subscribe(data => {
       this.vendors = data;
@@ -96,38 +99,19 @@ export class ListInvoicesComponent {
     return vName; 
   }
 
-  onVendorChange(event : Event){
-    const selectedVendorCode = (event.target as HTMLSelectElement).value;
-    if (selectedVendorCode) {
-      // this.invoiceService.getInvoices().subscribe((data: Invoice[]) => {
-      //   this.invoices = data.filter(invoice => invoice.vendorId == selectedVendorId);
-      // }, (error) => {
-      //   alert(error.error);
-      //   console.error("Error fetching invoices", error);
-      // });
-      this.invoiceService.getInvoicesByVendor(selectedVendorCode,this.invoices).subscribe(data => {
+  onChange(){
+    // console.log(this.vFilter+" "+this.cFilter);
+    // if(this.vFilter == '' && this.cFilter == ''){
+    //   this.getInvoices();
+    // }else{
+    // console.log(this.cFilter +" "+ this.vFilter);
+    
+      this.invoiceService.getFilteredInvoices(this.cFilter,this.vFilter).subscribe(data => {
         this.invoices = data;
-      });
-    }else{
-      this.getInvoices();
-    }
-  }
-
-  onCurrencyChange(event : Event){
-    const selectedCurrencyCode = (event.target as HTMLSelectElement).value;
-    if (selectedCurrencyCode) {
-      // this.invoiceService.getInvoices().subscribe((data: Invoice[]) => {
-      //   this.invoices = data.filter(invoice => invoice.vendorId == selectedVendorId);
-      // }, (error) => {
-      //   alert(error.error);
-      //   console.error("Error fetching invoices", error);
-      // });
-      this.invoiceService.getInvoicesByCurrency(selectedCurrencyCode,this.invoices).subscribe(data => {
-        this.invoices = data;
-      });
-    }else{
-      this.getInvoices();
-    }
+      },err => {
+        alert(err.error);
+      })
+    // }
   }
 
   backToInvoiceList(){

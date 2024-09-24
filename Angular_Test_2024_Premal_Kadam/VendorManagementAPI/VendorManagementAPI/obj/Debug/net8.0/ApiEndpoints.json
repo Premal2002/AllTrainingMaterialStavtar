@@ -1,0 +1,350 @@
+[
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
+    "Method": "GetAllCurrencies",
+    "RelativePath": "api/Currency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VendorManagementAPI.Models.Currency, VendorManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
+    "Method": "AddCurrency",
+    "RelativePath": "api/Currency",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currencyREF",
+        "Type": "VendorManagementAPI.DTO.CurrencyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
+    "Method": "UpdateCurrency",
+    "RelativePath": "api/Currency/{cCode}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "newcurrencyREF",
+        "Type": "VendorManagementAPI.DTO.CurrencyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
+    "Method": "DeleteCurrency",
+    "RelativePath": "api/Currency/{currencyCode}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currencyCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
+    "Method": "GetCurrencyByCode",
+    "RelativePath": "api/Currency/getCurrencyByCode/{cCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Currency",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "AddInvoice",
+    "RelativePath": "api/Invoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "invoiceREF",
+        "Type": "VendorManagementAPI.DTO.InvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "UpdateInvoice",
+    "RelativePath": "api/Invoice/{iNumber}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "invoiceREF",
+        "Type": "VendorManagementAPI.DTO.InvoiceDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Invoice",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "DeleteInvoice",
+    "RelativePath": "api/Invoice/{iNumber}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Invoice",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "GetAllInvoicesCountByVendorId",
+    "RelativePath": "api/Invoice/countByVendorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Invoice",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "GetFilteredInvoices",
+    "RelativePath": "api/Invoice/getFilteredInvoices/{cId}/{vId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "vId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Invoice",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "GetInvoiceByNumber",
+    "RelativePath": "api/Invoice/getInvoiceByNumber/{iNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "iNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Invoice",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
+    "Method": "GetAllVendors",
+    "RelativePath": "api/Vendor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VendorManagementAPI.Models.Vendor, VendorManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
+    "Method": "AddVendors",
+    "RelativePath": "api/Vendor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorREF",
+        "Type": "VendorManagementAPI.DTO.VendorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
+    "Method": "UpdateVendors",
+    "RelativePath": "api/Vendor/{vCode}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "vendorREF",
+        "Type": "VendorManagementAPI.DTO.VendorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
+    "Method": "DeleteVendor",
+    "RelativePath": "api/Vendor/{vendorCode}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
+    "Method": "GetVendorByCode",
+    "RelativePath": "api/Vendor/getVendorByCode/{vCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vCode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.Vendor",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

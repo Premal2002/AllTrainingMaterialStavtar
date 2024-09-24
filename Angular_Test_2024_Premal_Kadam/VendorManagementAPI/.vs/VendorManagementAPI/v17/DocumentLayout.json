@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\controllers\\invoicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\models\\vendormanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\models\\vendormanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\models\\invoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\controllers\\vendorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\controllers\\vendorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\dto\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\dto\\invoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\models\\vendor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\dto\\vendordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\dto\\vendordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|c:\\users\\premalkadam\\desktop\\induction2024-stavtar\\angular_test_2024_premal_kadam\\vendormanagementapi\\vendormanagementapi\\dto\\currencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9147F05-8981-4A89-922A-4C25D4E98451}|VendorManagementAPI\\VendorManagementAPI.csproj|solutionrelative:vendormanagementapi\\dto\\currencydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 340,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Invoice.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\Invoice.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Models\\Invoice.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\Invoice.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Models\\Invoice.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T07:52:16.169Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VendorManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\VendorManagementContext.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Models\\VendorManagementContext.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\VendorManagementContext.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Models\\VendorManagementContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T07:34:12.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VendorController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Controllers\\VendorController.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Controllers\\VendorController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Controllers\\VendorController.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Controllers\\VendorController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:22:58.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VendorDto.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\DTO\\VendorDto.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\DTO\\VendorDto.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\DTO\\VendorDto.cs",
+              "RelativeToolTip": "VendorManagementAPI\\DTO\\VendorDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T18:55:36.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\appsettings.json",
+              "RelativeToolTip": "VendorManagementAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-20T07:37:02.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InvoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\DTO\\InvoiceDto.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\DTO\\InvoiceDto.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\DTO\\InvoiceDto.cs",
+              "RelativeToolTip": "VendorManagementAPI\\DTO\\InvoiceDto.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wCgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T18:55:44.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InvoiceController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Controllers\\InvoiceController.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Controllers\\InvoiceController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Controllers\\InvoiceController.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Controllers\\InvoiceController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T11:45:01.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Vendor.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\Vendor.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Models\\Vendor.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\Vendor.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Models\\Vendor.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T11:09:14.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Program.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Program.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T09:23:49.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CurrencyDto.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\DTO\\CurrencyDto.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\DTO\\CurrencyDto.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\DTO\\CurrencyDto.cs",
+              "RelativeToolTip": "VendorManagementAPI\\DTO\\CurrencyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T18:55:53.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\Currency.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Models\\Currency.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Models\\Currency.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Models\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T07:55:49.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CurrencyController.cs",
+              "DocumentMoniker": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Controllers\\CurrencyController.cs",
+              "RelativeDocumentMoniker": "VendorManagementAPI\\Controllers\\CurrencyController.cs",
+              "ToolTip": "C:\\Users\\PremalKadam\\Desktop\\Induction2024-Stavtar\\Angular_Test_2024_Premal_Kadam\\VendorManagementAPI\\VendorManagementAPI\\Controllers\\CurrencyController.cs",
+              "RelativeToolTip": "VendorManagementAPI\\Controllers\\CurrencyController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowHUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T12:00:33.98Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,8 @@ export class AddVendorComponent {
         vendorEmail: [
           '', 
           [Validators.required, Validators.email] // Validate email format
-        ]
+        ],
+        isActive : ['',[Validators.required]]
       });
 
       const vCode = this.route.snapshot.paramMap.get('vCode');

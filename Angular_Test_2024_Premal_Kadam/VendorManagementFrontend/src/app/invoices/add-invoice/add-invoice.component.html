@@ -17,12 +17,12 @@
 
     <div class="form-group">
         <label>Invoice Currency</label>
-        <select formControlName="invoiceCurrencyId" class="form-control" 
-                [ngClass]="{'is-invalid': submitted && form['invoiceCurrencyId'].errors}">
+        <select formControlName="currencyId" class="form-control" 
+                [ngClass]="{'is-invalid': submitted && form['currencyId'].errors}">
             <option *ngFor="let currency of currencies" [value]="currency.currencyId">{{ currency.currencyCode }}</option>
         </select>
-        <div *ngIf="submitted && form['invoiceCurrencyId'].errors" class="invalid-feedback">
-            <div *ngIf="form['invoiceCurrencyId'].errors['required']">
+        <div *ngIf="submitted && form['currencyId'].errors" class="invalid-feedback">
+            <div *ngIf="form['currencyId'].errors['required']">
                 Please select a currency
             </div>
         </div>

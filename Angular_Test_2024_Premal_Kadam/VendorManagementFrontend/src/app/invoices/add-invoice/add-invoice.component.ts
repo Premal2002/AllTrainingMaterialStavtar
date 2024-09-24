@@ -32,6 +32,7 @@ export class AddInvoiceComponent {
   ngOnInit(): void {
     this.initializeForm();
 
+
     // Fetch vendor and currency data
     this.vendorService.getVendors().subscribe(data => {
       this.vendors = data;
@@ -44,29 +45,42 @@ export class AddInvoiceComponent {
       if(iNumber != 0){
         this.fromUpdate = true;
         this.invoiceService.getInvoiceByNumber(iNumber).subscribe(data => {
-          this.recDate = data.invoiceReceivedDate;
+          // debugger;
+          this.recDate = new Date(data.invoiceReceivedDate);
+          this.initializeForm();
+          
           this.invoiceForm.patchValue(data);
+          
+          let date : Date  = new Date(data.invoiceDueDate.toString().split('T')[0]);
+          let dateStr : string = this.getFormattedString(date);
+          this.invoiceForm.get('invoiceDueDate')?.setValue(dateStr);
+ 
         },err => {
           alert(err.error);
         });
       }
   }
 
+  //used in html
   get form(){
     return this.invoiceForm.controls;
   }
 
+  //get date in yyyy-MM-dd format
+  getFormattedString(date:Date)  : string {
+    return date.getFullYear()+"-"+String(date.getMonth()+1).padStart(2,'0')  +"-"+String(date.getDate()).padStart(2,'0');
+  }
+
   initializeForm(): void {
+    // debugger;
     this.invoiceForm = this.fb.group({
       invoiceNumber: ['', [Validators.required, Validators.pattern('^[0-9]+$')]],
-      invoiceCurrencyId: ['', Validators.required],
+      currencyId: ['', Validators.required],
       vendorId: ['', Validators.required],
       invoiceAmount: ['', [Validators.required, Validators.pattern('^[0-9]+(\\.[0-9]{1,2})?$')]],
       invoiceDueDate: ['', [Validators.required, dueDateValidator(this.recDate)]],
       isActive: [true]
-    });
-
-    
+    }); 
     
   }
 

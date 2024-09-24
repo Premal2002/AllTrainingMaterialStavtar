@@ -12,7 +12,7 @@ export class ManageInvoiceComponent {
   totalInvoices : number = 0;
   constructor(private invoiceService : InvoiceService){}
   ngOnInit(): void {
-    this.invoiceService.getInvoices().subscribe((data : Invoice[]) => {
+    this.invoiceService.getFilteredInvoices(0,0).subscribe((data : Invoice[]) => {
       this.invoices = data;
       this.totalInvoices = this.invoices.length;
     });

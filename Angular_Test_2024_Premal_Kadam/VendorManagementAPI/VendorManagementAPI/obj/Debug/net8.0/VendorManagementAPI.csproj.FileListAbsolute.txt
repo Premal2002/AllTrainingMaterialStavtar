@@ -1,0 +1,253 @@
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.AssemblyReference.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.VendorManagementAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\scopedcss\bundle\VendorManagementAPI.styles.css
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorMa.4C18F649.Up2Date
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\refint\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\ref\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.AssemblyReference.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.VendorManagementAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\scopedcss\bundle\VendorManagementAPI.styles.css
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorMa.4C18F649.Up2Date
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\refint\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\ref\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.sourcelink.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\.Net_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.exe
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.deps.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.runtimeconfig.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.pdb
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Castle.Core.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Reactive.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.AssemblyReference.cache
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfoInputs.cache
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfo.cs
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.CoreCompileInputs.cache
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.VendorManagementAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.VendorManagementAPI.props
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VendorManagementAPI.props
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VendorManagementAPI.props
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\scopedcss\bundle\VendorManagementAPI.styles.css
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorMa.4C18F649.Up2Date
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\refint\VendorManagementAPI.dll
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.pdb
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.genruntimeconfig.cache
+D:\Stavtar\Training Material\Current working\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\ref\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.exe
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.deps.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.runtimeconfig.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\VendorManagementAPI.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.AssemblyReference.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfoInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.AssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.csproj.CoreCompileInputs.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.sourcelink.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.VendorManagementAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VendorManagementAPI.props
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\scopedcss\bundle\VendorManagementAPI.styles.css
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorMa.4C18F649.Up2Date
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\refint\VendorManagementAPI.dll
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.pdb
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\VendorManagementAPI.genruntimeconfig.cache
+C:\Users\PremalKadam\Desktop\Induction2024-Stavtar\Angular_Test_2024_Premal_Kadam\VendorManagementAPI\VendorManagementAPI\obj\Debug\net8.0\ref\VendorManagementAPI.dll
