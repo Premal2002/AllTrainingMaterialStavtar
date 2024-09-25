@@ -24,9 +24,8 @@ export class InvoiceService {
   //   return this.http.get<Invoice[]>(this.apiUrl+"/getByCurrency/"+cCode);
   // }
 
-  getFilteredInvoices(cId : number,vId : number): Observable<Invoice[]> {
-    
-    return this.http.get<Invoice[]>(`${this.apiUrl}/getFilteredInvoices/${cId}/${vId}`);
+  getFilteredInvoices(cId : number,vId : number,pageNo : number): Observable<any> {
+    return this.http.get<Invoice[]>(`${this.apiUrl}/getFilteredInvoices/${cId}/${vId}/${pageNo}`);
   }
 
   getInvoiceByNumber(iNumber : number | null): Observable<Invoice> {

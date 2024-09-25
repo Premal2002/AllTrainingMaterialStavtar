@@ -37,7 +37,7 @@ export class AddVendorComponent {
           '', 
           [Validators.required, Validators.email] // Validate email format
         ],
-        isActive : ['',[Validators.required]]
+        isActive : [true,[Validators.required]]
       });
 
       const vCode = this.route.snapshot.paramMap.get('vCode');
@@ -58,7 +58,6 @@ export class AddVendorComponent {
 
     handleSubmit(){
       this.submitted = true;
-
       if(this.vendorForm.valid){
         this.vendorService.addVendor(this.vendorForm.value).subscribe(data => {
           alert("Vendor added successfully");

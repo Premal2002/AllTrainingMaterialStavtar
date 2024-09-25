@@ -34,6 +34,26 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
+        [HttpGet("{pageNo}")]
+        public async Task<ActionResult<IEnumerable<Currency>>> GetAllCurrencies(int pageNo, int pageSize = 5)
+        {
+            try
+            {
+                var count = _context.Currencies.Count();
+                var cList = await _context.Currencies.Skip((pageNo - 1) * pageSize).Take(pageSize).ToListAsync();
+                var result = new
+                {
+                    count = count,
+                    cList = cList
+                };
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
         [HttpGet("getCurrencyByCode/{cCode}")]
         public async Task<ActionResult<Currency>> GetCurrencyByCode(string cCode)
         {

@@ -12,14 +12,19 @@ import { InvoiceService } from 'src/app/invoice.service';
 })
 export class ListVendorsComponent {
   vendors : Vendor[] = [];
+  pageNo : number = 1;
+  // count : number;
+  totalPages : number;
   constructor(private vendorService : VendorService,private router : Router,private invoiceService : InvoiceService){}
   ngOnInit(): void {
     this.getVendors();
   }
 
   getVendors(){
-    this.vendorService.getVendors().subscribe((data : Vendor[]) => {
-      this.vendors = data;
+    this.vendorService.getPaginatedVendors(this.pageNo).subscribe((data : any) => {
+      this.vendors = data.vList;
+      // this.count = data.count;
+      this.totalPages =Math.ceil(data.count / 5);
     });
   }
 
@@ -56,6 +61,17 @@ export class ListVendorsComponent {
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Vendors');
     XLSX.writeFile(wb, 'vendors.xlsx');
+  }
+
+  next(){
+    this.pageNo++; 
+    this.getVendors();
+    
+  }
+
+  previous(){
+    this.pageNo--;
+    this.getVendors();
   }
 
 }

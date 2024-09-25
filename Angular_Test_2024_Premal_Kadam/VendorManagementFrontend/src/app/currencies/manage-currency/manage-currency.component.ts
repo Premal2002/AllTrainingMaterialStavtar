@@ -9,14 +9,12 @@ import { ListCurrenciesComponent } from '../list-currencies/list-currencies.comp
   styleUrls: ['./manage-currency.component.css']
 })
 export class ManageCurrencyComponent {
-  currencies : Currency[] = [];
   totalCurrencies : number = 0;
   constructor(private currencService : CurrencyService){}
 
   ngOnInit(): void {
-    this.currencService.getCurrencies().subscribe((data : Currency[]) => {
-      this.currencies = data;
-      this.totalCurrencies = this.currencies.length;
+    this.currencService.getPaginatedCurrencies(1).subscribe((data : any) => {
+      this.totalCurrencies = data.count;
     });
   }
 }

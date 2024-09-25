@@ -12,8 +12,12 @@ export class CurrencyService {
 
   constructor(private http: HttpClient) {}
 
-  getCurrencies(): Observable<Currency[]> {
-    return this.http.get<Currency[]>(this.apiUrl);
+  getCurrencies(): Observable<any> {
+    return this.http.get<Currency[]>(`${this.apiUrl}`);
+  }
+
+  getPaginatedCurrencies(pageNo : number): Observable<any> {
+    return this.http.get<Currency[]>(`${this.apiUrl}/${pageNo}`);
   }
 
   getCurrencyByCode(cCode : string | null): Observable<Currency> {

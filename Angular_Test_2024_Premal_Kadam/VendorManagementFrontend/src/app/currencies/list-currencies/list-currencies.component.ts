@@ -10,8 +10,9 @@ import * as XLSX from 'xlsx';
   styleUrls: ['./list-currencies.component.css']
 })
 export class ListCurrenciesComponent {
-  totalCurrencies : number = 0;
   currencies: Currency[] = [];
+  pageNo : number = 1;
+  totalPages : number;
 
   constructor(
     private currencyService: CurrencyService,
@@ -23,9 +24,9 @@ export class ListCurrenciesComponent {
   }
 
   loadCurrencies(): void {
-    this.currencyService.getCurrencies().subscribe(data => {
-      this.currencies = data;
-      this.totalCurrencies = this.currencies.length;
+    this.currencyService.getPaginatedCurrencies(this.pageNo).subscribe(data => {
+      this.currencies = data.cList;
+      this.totalPages =Math.ceil(data.count / 5);
     });
   }
 
@@ -54,5 +55,16 @@ export class ListCurrenciesComponent {
     XLSX.writeFile(wb, 'currencies.xlsx');
   }
 
+
+  next(){
+    this.pageNo++; 
+    this.loadCurrencies();
+    
+  }
+
+  previous(){
+    this.pageNo--;
+    this.loadCurrencies();
+  }
   
 }

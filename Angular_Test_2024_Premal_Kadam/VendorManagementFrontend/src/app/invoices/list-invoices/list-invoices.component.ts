@@ -20,6 +20,8 @@ export class ListInvoicesComponent {
   currencies: Currency[] = [];
   vFilter : number = 0;
   cFilter : number = 0;
+  pageNo : number = 1;
+  totalPages : number;
 
   constructor(private invoiceService: InvoiceService,private router : Router,private vendorService: VendorService,private currencyService: CurrencyService,private route : ActivatedRoute) { }
 
@@ -46,13 +48,6 @@ export class ListInvoicesComponent {
   }
 
   exportInvoices() {
-    // this.invoiceService.exportInvoices().subscribe(() => {
-    //   alert("Invoices exported successfully!");
-    // }, (error) => {
-    //   alert(error.error);
-    //   console.error("Error exporting invoices", error);
-    // });
-
     const ws = XLSX.utils.json_to_sheet(this.invoices);
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, 'Invoices');
@@ -100,14 +95,9 @@ export class ListInvoicesComponent {
   }
 
   onChange(){
-    // console.log(this.vFilter+" "+this.cFilter);
-    // if(this.vFilter == '' && this.cFilter == ''){
-    //   this.getInvoices();
-    // }else{
-    // console.log(this.cFilter +" "+ this.vFilter);
-    
-      this.invoiceService.getFilteredInvoices(this.cFilter,this.vFilter).subscribe(data => {
-        this.invoices = data;
+      this.invoiceService.getFilteredInvoices(this.cFilter,this.vFilter,this.pageNo).subscribe(data => {
+        this.invoices = data.iList;
+        this.totalPages =Math.ceil(data.count / 5);
       },err => {
         alert(err.error);
       })
@@ -118,5 +108,17 @@ export class ListInvoicesComponent {
     this.router.navigateByUrl('/', { skipLocationChange: true }).then(() => {
       this.router.navigate(['Invoice/manageInvoice/listInvoice']);
   });
+  }
+
+
+  next(){
+    this.pageNo++; 
+    this.onChange();
+    
+  }
+
+  previous(){
+    this.pageNo--;
+    this.onChange();
   }
 }

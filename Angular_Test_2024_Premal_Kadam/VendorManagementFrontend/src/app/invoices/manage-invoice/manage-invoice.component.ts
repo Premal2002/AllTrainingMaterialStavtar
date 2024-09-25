@@ -12,9 +12,8 @@ export class ManageInvoiceComponent {
   totalInvoices : number = 0;
   constructor(private invoiceService : InvoiceService){}
   ngOnInit(): void {
-    this.invoiceService.getFilteredInvoices(0,0).subscribe((data : Invoice[]) => {
-      this.invoices = data;
-      this.totalInvoices = this.invoices.length;
+    this.invoiceService.getFilteredInvoices(0,0,1).subscribe((data : any) => {
+      this.totalInvoices = data.count;
     });
   }
 }

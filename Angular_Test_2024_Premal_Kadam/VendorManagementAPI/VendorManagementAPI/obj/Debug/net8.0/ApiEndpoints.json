@@ -74,6 +74,37 @@
   },
   {
     "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
+    "Method": "GetAllCurrencies",
+    "RelativePath": "api/Currency/{pageNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VendorManagementAPI.Models.Currency, VendorManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.CurrencyController",
     "Method": "GetCurrencyByCode",
     "RelativePath": "api/Currency/getCurrencyByCode/{cCode}",
     "HttpMethod": "GET",
@@ -194,7 +225,7 @@
   {
     "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
     "Method": "GetFilteredInvoices",
-    "RelativePath": "api/Invoice/getFilteredInvoices/{cId}/{vId}",
+    "RelativePath": "api/Invoice/getFilteredInvoices/{cId}/{vId}/{pageNo}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -208,6 +239,16 @@
         "Name": "vId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [
@@ -283,6 +324,37 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.VendorController",
+    "Method": "GetPaginatedVendors",
+    "RelativePath": "api/Vendor/{pageNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[VendorManagementAPI.Models.Vendor, VendorManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "VendorManagementAPI.Controllers.VendorController",

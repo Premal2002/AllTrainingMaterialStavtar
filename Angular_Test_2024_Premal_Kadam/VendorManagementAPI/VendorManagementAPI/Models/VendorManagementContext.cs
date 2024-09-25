@@ -16,7 +16,14 @@ namespace VendorManagementAPI.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);
-            optionsBuilder.LogTo(log => File.AppendAllText("enforce.log", log + Environment.NewLine), LogLevel.Information);
+            try
+            {
+                optionsBuilder.LogTo(log => File.AppendAllText("enforce.log", log + Environment.NewLine), LogLevel.Information);
+            }catch(Exception e)
+            {
+
+            }
+            
         }
 
         //Optionally, override OnModelCreating if you want to customize mapping further

@@ -39,16 +39,38 @@ namespace VendorManagementAPI.Controllers
         }
 
 
-        [HttpGet("getFilteredInvoices/{cId}/{vId}")]
-        public async Task<ActionResult<Invoice>> GetFilteredInvoices(int cId,int vId)
+        [HttpGet("getFilteredInvoices/{cId}/{vId}/{pageNo}")]
+        public async Task<ActionResult<Invoice>> GetFilteredInvoices(int cId,int vId,int pageNo,int pageSize = 5)
         {
             try
             {
+                //var list = _context.Invoices
+                //                .Join(_context.Vendors,
+                //                      invoice => invoice.VendorId,
+                //                      vendor => vendor.VendorId,
+                //                      (invoice, vendor) => new { invoice, vendor })
+                //                .Join(_context.Currencies,
+                //                      invVendor => invVendor.invoice.CurrencyId,
+                //                      currency => currency.CurrencyId,
+                //                      (invVendor, currency) => new
+                //                      {
+                //                          InvoiceNumber = invVendor.invoice.InvoiceNumber,
+                //                          CurrencyCode = currency.CurrencyCode,
+                //                          VendorName = invVendor.vendor.VendorLongName,
+                //                          Amount = invVendor.invoice.InvoiceAmount,
+                //                          ReceivedDate = invVendor.invoice.InvoiceReceivedDate,
+                //                          DueDate = invVendor.invoice.InvoiceDueDate,
+                //                          IsActive = invVendor.invoice.IsActive
+                //                      });
                 var iList = new List<Invoice>();
-
-                iList =await _context.Invoices.Where(i => i.VendorId == (vId==0?i.VendorId:vId) && i.CurrencyId== (cId==0 ? i.CurrencyId : cId)).ToListAsync();          
-                
-                return Ok(iList);
+                var count = _context.Invoices.Count();
+                iList =await _context.Invoices.Where(i => i.VendorId == (vId==0?i.VendorId:vId) && i.CurrencyId== (cId==0 ? i.CurrencyId : cId)).Skip((pageNo - 1) * pageSize).Take(pageSize).ToListAsync();
+                var result = new
+                {
+                    count = count,
+                    iList = iList
+                };
+                return Ok(result);
             }
             catch (Exception ex)
             {

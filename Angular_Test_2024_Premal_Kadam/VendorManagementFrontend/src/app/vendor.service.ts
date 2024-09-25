@@ -13,7 +13,11 @@ export class VendorService {
   constructor(private http: HttpClient) {}
 
   getVendors(): Observable<Vendor[]> {
-    return this.http.get<Vendor[]>(this.apiUrl);
+    return this.http.get<Vendor[]>(`${this.apiUrl}`);
+  }
+
+  getPaginatedVendors(pageNo : number): Observable<any> {
+    return this.http.get<Vendor[]>(`${this.apiUrl}/${pageNo}`);
   }
 
   getVendorByCode(vCode : string | null): Observable<Vendor> {

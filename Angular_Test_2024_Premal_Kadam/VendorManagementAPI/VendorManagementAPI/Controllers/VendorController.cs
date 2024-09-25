@@ -33,6 +33,26 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
+        [HttpGet("{pageNo}")]
+        public async Task<ActionResult<IEnumerable<Vendor>>> GetPaginatedVendors(int pageNo,int pageSize = 5)
+        {
+            try
+            {
+                var count = _context.Vendors.Count();
+                var vList = await _context.Vendors.Skip((pageNo -1)*pageSize).Take(pageSize).ToListAsync();
+                var result = new 
+                { 
+                    count = count,
+                    vList = vList
+                };
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
         [HttpGet("getVendorByCode/{vCode}")]
         public async Task<ActionResult<Vendor>> GetVendorByCode(string vCode)
         {

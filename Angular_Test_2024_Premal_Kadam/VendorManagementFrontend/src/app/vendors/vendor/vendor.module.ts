@@ -19,7 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     HttpClientModule,
     ReactiveFormsModule,
-    VendorRoutingModule
+    VendorRoutingModule,
   ],
   // bootstrap: [ListVendorsComponent]
 })

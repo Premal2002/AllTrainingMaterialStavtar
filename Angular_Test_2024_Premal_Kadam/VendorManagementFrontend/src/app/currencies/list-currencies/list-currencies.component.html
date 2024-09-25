@@ -34,6 +34,15 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <nav aria-label="Page navigation example ">
+                                <ul class="pagination justify-content-center" >
+                                  <li class="page-item"><a class="page-link hover-pointer" (click)="previous()" [class.disabled]="pageNo==1">Previous</a></li>
+                                  <li class="page-item"><a class="page-link active" >{{pageNo}}</a></li>
+                                  <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+                                  <li class="page-item cur"><a class="page-link hover-pointer" (click)="next()" [class.disabled]="pageNo==totalPages">Next</a></li>
+                                </ul>
+                              </nav>
                         </div>
                     </div>
                 </div>

@@ -25,13 +25,22 @@
                 <td>{{v.vendorLongName}}</td>
                 <td>{{v.vendorPhoneNumber}}</td>
                 <td>{{v.vendorEmail}}</td>
-                <td>{{v.vendorCreatedOn | date : 'dd-mm-yyyy'}}</td>
+                <td>{{v.vendorCreatedOn | date : 'dd-MM-yyyy'}}</td>
                 <td>{{v.isActive}}</td>
                 <td><button class="btn btn-danger" (click)="deleteVendor(v.vendorCode)">Delete</button></td>
                 <td><button class="btn btn-success" (click)="updateVendor(v.vendorCode)">Update</button></td>
               </tr>
             </tbody>
           </table>
+          <nav aria-label="Page navigation example ">
+            <ul class="pagination justify-content-center" >
+              <li class="page-item"><a class="page-link hover-pointer" (click)="previous()" [class.disabled]="pageNo==1">Previous</a></li>
+              <li class="page-item"><a class="page-link active" >{{pageNo}}</a></li>
+              <!-- <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li> -->
+              <li class="page-item cur"><a class="page-link hover-pointer" (click)="next()" [class.disabled]="pageNo==totalPages">Next</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </div>
