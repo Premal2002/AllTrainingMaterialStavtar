@@ -8,7 +8,7 @@ import { Vendor } from './vendors/vendor.model';
 })
 export class VendorService {
 
-  private apiUrl = 'https://localhost:7217/api/Vendor'; 
+  private apiUrl = 'http://localhost:5274/api/Vendor'; 
 
   constructor(private http: HttpClient) {}
 

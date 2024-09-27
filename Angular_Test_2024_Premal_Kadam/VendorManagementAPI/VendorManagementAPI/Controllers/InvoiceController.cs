@@ -1,8 +1,11 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq.Expressions;
 using System.Numerics;
 using System.Reactive.Linq;
+using System.Reflection;
 using System.Text.Json;
 using VendorManagementAPI.DTO;
 using VendorManagementAPI.Models;
@@ -38,33 +41,122 @@ namespace VendorManagementAPI.Controllers
             }
         }
 
+        [HttpGet("filteredView/{property}/{value}")]
+        public async Task<ActionResult<InvoiceVendorCurrencyView>> GetFilteredInvoiceView([FromQuery] string filterObject,string property, string value)
+        {
+            try
+            {
+                //#region Lambda Expression
+                //var propertyInfo = typeof(InvoiceVendorCurrencyView).GetProperty(property);
+                //if (propertyInfo == null)
+                //{
+                //    throw new Exception();
+                //}
+                //var parameterExpression = Expression.Parameter(typeof(InvoiceVendorCurrencyView), "i");
+
+
+                //object convertedValue;
+
+                //try
+                //{
+                //    convertedValue = Convert.ChangeType(value, propertyInfo.PropertyType);
+                //}
+                //catch (Exception)
+                //{
+                //    throw new Exception();
+                //}
+
+                //var constant = Expression.Constant(convertedValue);
+
+                //var property1 = Expression.Property(parameterExpression, property);
+
+                //var expression = Expression.Equal(property1, constant);
+
+                //var lambda = Expression.Lambda<Func<InvoiceVendorCurrencyView, bool>>(expression, parameterExpression);
+                //#endregion
+
+                //var list = await _context.InvoiceVendorCurrencyViews.Where(lambda).ToListAsync();
+                //return Ok(list);
+
+                if (string.IsNullOrEmpty(filterObject))
+                {
+                    return BadRequest("obj is empty");
+                }
+
+                var obj = JsonSerializer.Deserialize<object>(filterObject);
+
+                var parameterExpression = Expression.Parameter(typeof(InvoiceVendorCurrencyView), "i");
+
+                Expression compoundExpression = null;
+                foreach (var p in obj.GetType().GetProperties())
+                {
+                    var propertyInfo = typeof(InvoiceVendorCurrencyView).GetProperty(p.Name);
+                    if (propertyInfo == null)
+                    {
+                        throw new Exception();
+                    }
+                    var propValue = p.GetValue(obj);
+                    object convertedValue;
+                    
+                    convertedValue = Convert.ChangeType(propValue, propertyInfo.PropertyType);
+
+                    var constant = Expression.Constant(convertedValue);
+
+                    var property1 = Expression.Property(parameterExpression, property);
+
+                    var expression = Expression.Equal(property1, constant);
+
+                    compoundExpression = compoundExpression == null ? expression : Expression.AndAlso(compoundExpression, expression);
+                    
+
+                }
+
+                if(compoundExpression == null)
+                {
+                    throw new Exception("no valid expression could be generated");
+                }
+
+                var lambda = Expression.Lambda<Func<InvoiceVendorCurrencyView, bool>>(compoundExpression, parameterExpression);
+
+                var list = await _context.InvoiceVendorCurrencyViews.Where(lambda).ToListAsync();
+                return Ok(list);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
+        
 
         [HttpGet("getFilteredInvoices/{cId}/{vId}/{pageNo}")]
         public async Task<ActionResult<Invoice>> GetFilteredInvoices(int cId,int vId,int pageNo,int pageSize = 5)
         {
             try
             {
-                //var list = _context.Invoices
-                //                .Join(_context.Vendors,
-                //                      invoice => invoice.VendorId,
-                //                      vendor => vendor.VendorId,
-                //                      (invoice, vendor) => new { invoice, vendor })
-                //                .Join(_context.Currencies,
-                //                      invVendor => invVendor.invoice.CurrencyId,
-                //                      currency => currency.CurrencyId,
-                //                      (invVendor, currency) => new
-                //                      {
-                //                          InvoiceNumber = invVendor.invoice.InvoiceNumber,
-                //                          CurrencyCode = currency.CurrencyCode,
-                //                          VendorName = invVendor.vendor.VendorLongName,
-                //                          Amount = invVendor.invoice.InvoiceAmount,
-                //                          ReceivedDate = invVendor.invoice.InvoiceReceivedDate,
-                //                          DueDate = invVendor.invoice.InvoiceDueDate,
-                //                          IsActive = invVendor.invoice.IsActive
-                //                      });
-                var iList = new List<Invoice>();
+                var list = _context.Invoices
+                                .Join(_context.Vendors,
+                                      invoice => invoice.VendorId,
+                                      vendor => vendor.VendorId,
+                                      (invoice, vendor) => new { invoice, vendor })
+                                .Join(_context.Currencies,
+                                      invVendor => invVendor.invoice.CurrencyId,
+                                      currency => currency.CurrencyId,
+                                      (invVendor, currency) => new
+                                      {
+                                          InvoiceNumber = invVendor.invoice.InvoiceNumber,
+                                          CurrencyCode = currency.CurrencyCode,
+                                          VendorId = invVendor.invoice.VendorId,
+                                          CurrencyId = invVendor.invoice.CurrencyId,
+                                          VendorName = invVendor.vendor.VendorLongName,
+                                          InvoiceAmount = invVendor.invoice.InvoiceAmount,
+                                          InvoiceReceivedDate = invVendor.invoice.InvoiceReceivedDate,
+                                          InvoiceDueDate = invVendor.invoice.InvoiceDueDate,
+                                          IsActive = invVendor.invoice.IsActive
+                                      });
+                //var iList = new List<list>();
                 var count = _context.Invoices.Count();
-                iList =await _context.Invoices.Where(i => i.VendorId == (vId==0?i.VendorId:vId) && i.CurrencyId== (cId==0 ? i.CurrencyId : cId)).Skip((pageNo - 1) * pageSize).Take(pageSize).ToListAsync();
+                var iList =await list.Where(i => i.VendorId == (vId==0?i.VendorId:vId) && i.CurrencyId== (cId==0 ? i.CurrencyId : cId)).Skip((pageNo - 1) * pageSize).Take(pageSize).ToListAsync();
                 var result = new
                 {
                     count = count,

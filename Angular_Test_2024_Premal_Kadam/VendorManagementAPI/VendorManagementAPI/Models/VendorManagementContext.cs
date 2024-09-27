@@ -7,6 +7,7 @@ namespace VendorManagementAPI.Models
         public DbSet<Vendor> Vendors { get; set; }
         public DbSet<Invoice> Invoices { get; set; }
         public DbSet<Currency> Currencies { get; set; }
+        public DbSet<InvoiceVendorCurrencyView> InvoiceVendorCurrencyViews { get; set; }
 
         public VendorManagementContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {
@@ -16,14 +17,7 @@ namespace VendorManagementAPI.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);
-            try
-            {
-                optionsBuilder.LogTo(log => File.AppendAllText("enforce.log", log + Environment.NewLine), LogLevel.Information);
-            }catch(Exception e)
-            {
-
-            }
-            
+              optionsBuilder.LogTo(log => File.AppendAllText("enforce.log", log + Environment.NewLine), LogLevel.Information);
         }
 
         //Optionally, override OnModelCreating if you want to customize mapping further
@@ -31,6 +25,9 @@ namespace VendorManagementAPI.Models
         {
             // Fluent API configuration (if needed)
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<InvoiceVendorCurrencyView>()
+                .HasNoKey()
+                .ToView("InvoiceVendorCurrencyView");
         }
     }
 }

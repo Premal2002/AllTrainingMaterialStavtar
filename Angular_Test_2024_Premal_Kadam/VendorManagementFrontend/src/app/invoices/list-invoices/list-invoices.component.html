@@ -42,12 +42,13 @@
               <!-- *ngFor -->
               <tr *ngFor="let invoice of invoices">
                 <td>{{invoice.invoiceNumber}}</td>
-                <td>{{getCurrencyCode(invoice.currencyId)}}</td>
-                <td>{{getVendorName(invoice.vendorId)}}</td>
-                <td>{{invoice.invoiceAmount | currency : getCurrencyCode(invoice.currencyId)}}</td>
+                <td>{{invoice.currencyCode}}</td>
+                <td>{{invoice.vendorName}}</td>
+                <td>{{invoice.invoiceAmount | currency : invoice.currencyCode}}</td>
                 <td>{{invoice.invoiceReceivedDate | date : 'dd-MM-yyyy'}}</td>
                 <td>{{invoice.invoiceDueDate | date : 'dd-MM-yyyy'}}</td>
-                <td>{{invoice.isActive}}</td>
+                <td *ngIf="invoice.isActive;else other_content" class="text-center"> <i class="bi bi-check-circle-fill text-success"></i></td>
+                <ng-template #other_content> <td class="text-center"><i class="bi bi-x-circle-fill text-danger"></i></td> </ng-template>
                 <td>
                   <button class="btn btn-danger" (click)="deleteInvoice(invoice.invoiceNumber)">Delete</button>
                 </td>

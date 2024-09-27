@@ -224,6 +224,42 @@
   },
   {
     "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
+    "Method": "GetFilteredInvoiceView",
+    "RelativePath": "api/Invoice/filteredView/{property}/{value}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filterObject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "property",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "VendorManagementAPI.Models.InvoiceVendorCurrencyView",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendorManagementAPI.Controllers.InvoiceController",
     "Method": "GetFilteredInvoices",
     "RelativePath": "api/Invoice/getFilteredInvoices/{cId}/{vId}/{pageNo}",
     "HttpMethod": "GET",

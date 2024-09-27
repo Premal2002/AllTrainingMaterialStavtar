@@ -15,7 +15,7 @@ import * as XLSX from 'xlsx';
   styleUrls: ['./list-invoices.component.css']
 })
 export class ListInvoicesComponent {
-  invoices: Invoice[] = [];
+  invoices: any[] = [];
   vendors: Vendor[] = [];
   currencies: Currency[] = [];
   vFilter : number = 0;
@@ -74,28 +74,10 @@ export class ListInvoicesComponent {
     this.router.navigate([`Invoice/manageInvoice/addInvoice/${invoiceNumber}`]);
   }
 
-  getCurrencyCode(currencyId: number): string {
-    let cCode : string = "null";
-    this.currencies.forEach(element => {
-      if(element.currencyId == currencyId){
-          cCode = element.currencyCode;
-      }
-    });
-    return cCode; 
-  }
-
-  getVendorName(vendorId: number): string {
-    let vName : string = "null";
-    this.vendors.forEach(element => {
-      if(element.vendorId == vendorId){
-          vName = element.vendorLongName;
-      }
-    });
-    return vName; 
-  }
-
   onChange(){
       this.invoiceService.getFilteredInvoices(this.cFilter,this.vFilter,this.pageNo).subscribe(data => {
+        // console.log(data);
+        
         this.invoices = data.iList;
         this.totalPages =Math.ceil(data.count / 5);
       },err => {

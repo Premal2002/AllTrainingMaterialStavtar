@@ -8,7 +8,7 @@ import { Invoice } from './invoices/invoice.model';
 })
 export class InvoiceService {
 
-  private apiUrl = 'https://localhost:7217/api/Invoice';
+  private apiUrl = 'http://localhost:5274/api/Invoice';
 
   constructor(private http: HttpClient) {}
 
